@@ -1,0 +1,27 @@
+{
+  "offering_rows": 11020,
+  "rows_by_semester": {
+    "F26": 3327,
+    "M26": 539,
+    "S26": 3283,
+    "F25": 3304,
+    "M25": 567
+  },
+  "distinct_courses": 5853,
+  "courses_in_catalog": 3066,
+  "courses_not_in_catalog": 2787,
+  "catalog_courses_never_offered": 1197,
+  "rows_with_tba_time": 2923,
+  "rows_mini": 2068,
+  "distinct_locations": [
+    "Doha, Qatar",
+    "Kigali, Rwanda",
+    "Lisbon, Portugal",
+    "Los Angeles, California",
+    "Pittsburgh, Pennsylvania",
+    "San Jose, California",
+    "Unknown Location",
+    "Washington, District of Columbia",
+    "Washington, District of Columbia:Dulles"
+  ]
+}

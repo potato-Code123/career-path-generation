@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "planner",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["cmu-catalog/site/serve.py", "8151"],
+      "port": 8151
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "courses": 4263,
+  "courses_with_prerequisites": 1508,
+  "courses_missing_units": 417,
+  "courses_missing_description": 1,
+  "prereq_edges": 4317,
+  "dangling_edges": 498,
+  "needs_review_count": 66,
+  "needs_review": [
+    {
+      "course_id": "03-343",
+      "name": "Experimental Techniques in Molecular Biology",
+      "raw": "( 03-231 or 03-232 ) and ( 09-222 or 09-223 or qc211 or 09-208 )",
+      "reason": "contains prose conditions alongside course codes"
+    },
+    {
+      "course_id": "06-614",
+      "name": "Special Topics: Atmospheric Nanoparticles and Climate",
+      "raw": "undergraduate chemistry and physics",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "06-644",
+      "name": "Electrochemical Decarbonization Technologies",
+      "raw": "Undergraduate thermodynamics: 24-221 or 06-221 or 27-215 , or equivalent",
+      "reason": "contains prose conditions alongside course codes"
+    },
+    {
+      "course_id": "11-364",
+      "name": "An Introduction to Knowledge-Based Deep Learning and Socratic Coaches",
+      "raw": "Strong quantitative aptitude, programming skill, ability to quickly absorb new ideas, teamwork skills.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "11-661",
+      "name": "Language and Statistics",
+      "raw": "Strong quantitative aptitude. Comfort with basic UG-level probability. Some programming skill.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "11-731",
+      "name": "Machine Translation and Sequence-to-Sequence Models",
+      "raw": "This course has no official pre-requisites, although 11-711 \"Algorithms for NLP\" or 10-701 \"Machine Learning\" would be helpful. Course Description: Machine Translation and Sequence-to-Sequence Models is an introductory graduate-level course surveying the primary approaches and methods for developing systems to translate between human languages, or other sequential data. The main objective of the course is to obtain basic understanding and implementation skills for modern methods for MT and sequence transduction, including how to design models, how to learn the model parameters, how to search for the best output, and how to create training data. The course will focus on machine translation, but also briefly cover tasks such as dialog response generation, image caption generation, and others.",
+      "reason": "mixes 'and'/'or' without parentheses; grouping is ambiguous"
+    },
+    {
+      "course_id": "11-751",
+      "name": "Speech Recognition and Understanding",
+      "raw": "Sound mathematical background, knowledge of basic statistics, good computing skills. No prior experience with speech recognition is necessary. This course is primarily for graduate students in LTI, CS, Robotics, ECE, Psychology, or Computational Linguistics. Others by prior permission of instructor.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "11-761",
+      "name": "Language and Statistics",
+      "raw": "Strong quantitative aptitude. Comfort with basic UG-level probability. Some programming skill.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "12-749",
+      "name": "Climate Change Adaptation",
+      "raw": "Graduate standing or consent of instructor.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "12-755",
+      "name": "Finite Elements in Mechanics I",
+      "raw": "Graduate standing or consent of instructor. Prerequisites: Graduate standing or consent of instructor.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "16-425",
+      "name": "Medical Image Analysis",
+      "raw": "Knowledge of vector calculus, basic probability, and either C++ or python, including basic command-line familiarity and how to pass arguments to your own command-line programs. Extensive expertise with C++ and templates is not necessary, but some students may find it helpful.",
+      "reason": "mixes 'and'/'or' without parentheses; grouping is ambiguous"
+    },
+    {
+      "course_id": "16-725",
+      "name": "(Bio)Medical Image Analysis",
+      "raw": "Knowledge of vector calculus, basic probability, and either C++ or python, including basic command-line familiarity and how to pass arguments to your own command-line programs. Extensive expertise with C++ and templates is not necessary, but some students may find it helpful.",
+      "reason": "mixes 'and'/'or' without parentheses; grouping is ambiguous"
+    },
+    {
+      "course_id": "17-314",
+      "name": "Formal Methods",
+      "raw": "Undergraduate discrete math including first-order logic, sets, functions, relations, and simple proof techniques such as induction.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "17-562",
+      "name": "Law of Computer Technology",
+      "raw": "none.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "17-651",
+      "name": "Models of Software Systems",
+      "raw": "Undergraduate discrete math including first-order logic, sets, functions, relations, and simple proof techniques such as induction. Sections D, PP and G are NOT available for on-campus students. Admission to the class is by approval from the instructor: If you are not MSE/MSIT-SE/MITS, send email to garlan@cs.cmu.edu for permission to enroll. The email should briefly describe your background, whether you have taken an undergraduate discrete math course, and why you would like to take the course. The course must be taken for a letter grade (not pass/fail). This is a graduate level course.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "18-631",
+      "name": "Introduction to Information Security",
+      "raw": "The course assumes a basic working knowledge of computers, networks, C and UNIX programming, as well as an elementary mathematics background, but does not assume any prior exposure to topics in computer or communications security. Students lacking technical background (e.g., students without any prior exposure to programming) are expected to catch up through self-study.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "18-645",
+      "name": "How to Write Fast Code I",
+      "raw": "Senior ECE or CS undergraduate student or higher, solid C programming skills.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "18-749",
+      "name": "Building Reliable Distributed Systems",
+      "raw": "Graduate standing or instructor permission",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "18-756",
+      "name": "Packet Switching and Computer Networks",
+      "raw": "18-345 and senior or graduate standing.",
+      "reason": "mixes 'and'/'or' without parentheses; grouping is ambiguous"
+    },
+    {
+      "course_id": "18-781",
+      "name": "Speech Recognition and Understanding",
+      "raw": "Sound mathematical background, knowledge of basic statistics, good computing skills. No prior experience with speech recognition is necessary. This course is primarily for graduate students in LTI, CS, Robotics, ECE, Psychology, or Computational Linguistics. Others by prior permission of instructor.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "19-303",
+      "name": "Cryptocurrencies, Blockchains and Applications",
+      "raw": "Introduction to Computer Systems or equivalent strongly recommended",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "19-685",
+      "name": "Engineering Optimization without Project",
+      "raw": "None 19785 and 24785: 12-units including the team-based engineering optimization project 19685 and 24685: 9-units excluding the project",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "19-785",
+      "name": "Engineering Optimization",
+      "raw": "None 19785 and 24785: 12-units including the team-based engineering optimization project 19685 and 24685: 9-units excluding the project",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "24-390",
+      "name": "Mechanical Engineering Co-op",
+      "raw": "Special permission required",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "24-655",
+      "name": "Cellular Biomechanics",
+      "raw": "Instructor permission.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "24-673",
+      "name": "Soft Robots: Mechanics, Design and Modeling",
+      "raw": "Statics and Stress Analysis or equivalents.",
+      "reason": "mixes 'and'/'or' without parentheses; grouping is ambiguous"
+    },
+    {
+      "course_id": "24-683",
+      "name": "Design for Manufacture and the Environment",
+      "raw": "Senior standing in mechanical engineering, or permission of instructor",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "24-793",
+      "name": "Supervised Reading",
+      "raw": "Completion of \"Supervised Reading\" form acquired by your graduate MechE advisor; which includes permission of the instructor.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "24-794",
+      "name": "Master of Science Research",
+      "raw": "permission of the instructor.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "30-301",
+      "name": "Basic Leader Planning and Combat Operations",
+      "raw": "Class is open only to contracted students. Veterans with two or more years of service may enroll with approval.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "30-302",
+      "name": "Advanced Leader Planning and Combat Operations",
+      "raw": "Class is open only to contracted students. Veterans with two or more years of service may enroll with approval.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "30-401",
+      "name": "Progressive Leadership Theory and Applications",
+      "raw": "Class is open only to contracted students.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "30-402",
+      "name": "Transition to the Profession of Arms",
+      "raw": "Class is open only to contracted students.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "36-700",
+      "name": "Probability and Mathematical Statistics",
+      "raw": "one- and two-variable calculus and matrix algebra. Graduate students in degree-seeking programs are given priority.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "42-631",
+      "name": "Neural Data Analysis",
+      "raw": "undergraduate probability ( 36-225 /227, or its equivalent), some familiarity with linear algebra and Matlab programming",
+      "reason": "contains prose conditions alongside course codes"
+    },
+    {
+      "course_id": "42-632",
+      "name": "Neural Signal Processing",
+      "raw": "18-290 ; 36-217, or equivalent introductory probability theory and random variables course; an introductory linear algebra course; senior or graduate standing. No prior knowledge of neuroscience is needed.",
+      "reason": "mixes 'and'/'or' without parentheses; grouping is ambiguous"
+    },
+    {
+      "course_id": "42-645",
+      "name": "Cellular Biomechanics",
+      "raw": "Instructor permission. Prerequisites: None. Corequisites: None. Cross Listed Courses: 24-655 Notes: None. Reservations:",
+      "reason": "contains prose conditions alongside course codes"
+    },
+    {
+      "course_id": "42-670",
+      "name": "Special Topics: Biomaterial Host Interactions in Regenerative Medicine",
+      "raw": "junior or senior standing in Biomedical Engineering or consent of the instructor.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "42-672",
+      "name": "Fundamentals of Biomedical Imaging and Image Analysis",
+      "raw": "18-290 Signals and Systems or permission of the instructor. Proficiency in basic programming is expected. Knowledge of image processing, computer vision, and/or MATLAB is helpful but not essential.",
+      "reason": "mixes 'and'/'or' without parentheses; grouping is ambiguous"
+    },
+    {
+      "course_id": "51-338",
+      "name": "Documentary Photography",
+      "raw": "A beginning photography course, or by the permission of the instructor.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "51-441",
+      "name": "Foundation of BME Design",
+      "raw": "Junior level design or higher with studio training. Solid modeling or surface modeling recommended.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "54-756",
+      "name": "Theatre for the Ear",
+      "raw": "54-767 Graduate Conceptual Sound Design 1 and amp; 54-768 Graduate Conceptual Sound Design 2 OR 54-791 Playwriting I. Restrictions: The course is open to Graduate Sound Design majors, Graduate Dramatic Writers or with permission of the instructor.",
+      "reason": "mixes 'and'/'or' without parentheses; grouping is ambiguous"
+    },
+    {
+      "course_id": "60-399",
+      "name": "Art History/Theory Independent Study",
+      "raw": "Art Junior/Senior status and by instructor permission.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "60-499",
+      "name": "Studio Independent Study",
+      "raw": "Art Junior/Senior status and by instructor permission.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "79-506",
+      "name": "Global Studies Internship",
+      "raw": "Students must be Global Studies majors and obtain permission for the proposed internship from the Global Studies advisor.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "82-396",
+      "name": "The Faust Legend at Home and Abroad",
+      "raw": "None for 9 units; an additional 3 units, requiring permission of the instructor, can be earned for work done in Russian.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "82-450",
+      "name": "Advanced Research in Hispanic Language & Culture",
+      "raw": "Permission of instructor",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "82-489",
+      "name": "Service Learning in the Community",
+      "raw": "Completion of all 300-level coursework, or an approved equivalent, or permission of instructor",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "82-492",
+      "name": "The Historical Imagination in Nineteenth-Century Russian Literature",
+      "raw": "None for 9 units; an additional 3 units, requiring permission of the instructor, can be earned for work done in Russian.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "82-532",
+      "name": "Special Topics in Chinese Studies",
+      "raw": "Permission of instructor and a 400-level course",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "82-541",
+      "name": "Special Topics in Hispanic Studies",
+      "raw": "Permission of the instructor and a 400-level course",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "82-542",
+      "name": "Special Topics in Hispanic Studies",
+      "raw": "Permission of the instructor and a 400-level course",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "82-561",
+      "name": "Special Topics: Italian Studies",
+      "raw": "Permission of the instructor and a 400-level course",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "82-562",
+      "name": "Special Topics: Italian Studies",
+      "raw": "Permission of the instructor and a 400-level course",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "82-571",
+      "name": "Special Topics in Japanese Studies",
+      "raw": "Permission of the instructor and a 400-level course",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "82-572",
+      "name": "Special Topics in Japanese Studies",
+      "raw": "Permission of the instructor and a 400-level course",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "82-585",
+      "name": "Topics in Second Language Acquisition",
+      "raw": "Permission of instructor SPRING 2016 Section B: East Asian Psycholinguistics Our understanding of cognitive processes and mechanisms underlying language has primarily come from studies of European languages. However, languages such as Chinese, Japanese and Korean offer profound implications for the acquisition, representation, and processing of language, due to their differences from most European languages. Topics include first and second language acquisition, spoken word recognition, reading, language disorders, and the relationships between language, culture, and cognition. This course serves to prepare students for more advanced studies of East Asian languages, experimental linguistics, and linguistic theory.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "82-591",
+      "name": "Modern Languages Honors Thesis",
+      "raw": "Senior standing; a 3.5 QPA in one's language major; a 3.25 QPA overall; permission of the Department Head and approved entry into the College's Honors Program",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "82-592",
+      "name": "Modern Languages Honors Thesis",
+      "raw": "Senior standing; a 3.5 QPA in one's language major; a 3.25 QPA overall; permission of the Department Head and approved entry into the College's Honors Program",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "84-497",
+      "name": "Undergraduate Research Mini",
+      "raw": "Students must also complete an \"Independent Study/Research for Credit\" form, available from the Deputy Director for Academic Affairs or on the CMIST website. Permission of a faculty sponsor.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "84-498",
+      "name": "Undergraduate Research",
+      "raw": "Students must also complete an \"Independent Study/Research for Credit\" form, available from the Deputy Director for Academic Affairs or on the CMIST website. Permission of a faculty sponsor.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "84-499",
+      "name": "Independent Study",
+      "raw": "Permission of a faculty sponsor.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "85-601",
+      "name": "Senior Thesis",
+      "raw": "Grade of B or better in a previous research course required to enter, grade of B or better in first semester of senior thesis course required to complete, and permission of instructor. A formal proposal is required in the first semester. This course differs from the Honors Thesis sequence ( 66-501 ,502) in that it does not require Honors standing in HSS (i.e., there are no QPA requirements). This course differs from Research in Psychology ( 85-507 ,508) in that the student's original contribution to the research is expected to be more substantial, and in that a final written report of the project is to be presented to the Department.",
+      "reason": "contains prose conditions alongside course codes"
+    },
+    {
+      "course_id": "85-602",
+      "name": "Senior Thesis",
+      "raw": "Grade of B or better in a previous research course required to enter, grade of B or better in first semester of senior thesis course required to complete, and permission of instructor. A formal proposal is required in the first semester. This course differs from the Honors Thesis sequence ( 66-501 ,602) in that it does not require Honors standing in HSS (i.e., there are no QPA requirements). This course differs from Research in Psychology ( 85-507 ,508) in that the student's original contribution to the research is expected to be more substantial, and in that a final written report of the project is to be presented to the Department.",
+      "reason": "contains prose conditions alongside course codes"
+    },
+    {
+      "course_id": "85-765",
+      "name": "Cognitive Neuroscience",
+      "raw": "Graduate standing or two upper-level psychology courses from the areas of developmental psychology, cognitive psychology, computational modeling of intelligence, neuropsychology or neuroscience.",
+      "reason": "no course codes found; requirement is prose only"
+    },
+    {
+      "course_id": "88-397",
+      "name": "SDS Undergraduate Research - mini",
+      "raw": "Students must also complete an \"Independent Study/Research for Credit\" form, available from the SDS advisor in Porter 208A. Permission of a faculty sponsor.",
+      "reason": "no course codes found; requirement is prose only"
+    }
+  ]
+}

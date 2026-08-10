@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CMU Course Planner</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="chrome">
+  <div class="chrome-inner">
+    <div class="brand">
+      <span class="brand-mark"></span>
+      <span class="brand-name">Course Planner</span>
+    </div>
+
+    <nav class="segmented" role="tablist">
+      <button class="seg" role="tab" data-tab="plan" aria-selected="true">Degree</button>
+      <button class="seg" role="tab" data-tab="schedule" aria-selected="false">Schedule</button>
+      <button class="seg" role="tab" data-tab="geneds" aria-selected="false">Gen Eds</button>
+      <span class="seg-thumb" aria-hidden="true"></span>
+    </nav>
+
+    <button class="search-trigger" id="searchTrigger">
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M7 1a6 6 0 104.24 10.24l3.26 3.26 1.06-1.06-3.26-3.26A6 6 0 007 1zm0 1.5A4.5 4.5 0 112.5 7 4.5 4.5 0 017 2.5z"/></svg>
+      <span>Search courses</span>
+      <kbd>/</kbd>
+    </button>
+  </div>
+</header>
+
+<main>
+  <!-- ───────────────── Degree ───────────────── -->
+  <section class="tabpanel" data-panel="plan">
+    <div class="plan-layout">
+      <aside class="rail" id="reqRail">
+        <div class="rail-head">
+          <label class="field-label" for="degreeSelect">Degree</label>
+          <select id="degreeSelect" class="select"></select>
+          <div class="progress-summary" id="progressSummary"></div>
+        </div>
+        <div class="rail-body" id="reqList"></div>
+      </aside>
+
+      <div class="plan-main">
+        <div class="plan-head">
+          <div>
+            <h1>Degree plan</h1>
+            <p class="sub" id="planSub">Eight semesters. Add courses and requirements check themselves off.</p>
+          </div>
+          <button class="btn-quiet" id="clearPlan">Clear plan</button>
+        </div>
+        <div class="years" id="years"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────── Schedule ───────────────── -->
+  <section class="tabpanel" data-panel="schedule" hidden>
+    <div class="sched-layout">
+      <aside class="rail">
+        <div class="rail-head">
+          <h1 class="rail-title">Fall 2026</h1>
+          <p class="sub" id="schedSub">Pick sections. Conflicts are flagged, never blocked.</p>
+          <button class="btn" id="addSection">Add a section</button>
+        </div>
+        <div class="rail-body" id="pickedList"></div>
+      </aside>
+      <div class="sched-main">
+        <div class="conflict-bar" id="conflictBar" hidden></div>
+        <div class="calendar" id="calendar"></div>
+        <div class="unscheduled" id="unscheduled"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────── Gen Eds ───────────────── -->
+  <section class="tabpanel" data-panel="geneds" hidden>
+    <div class="gened-head">
+      <div>
+        <h1>General education</h1>
+        <p class="sub" id="genedSub"></p>
+      </div>
+      <div class="gened-controls">
+        <select id="schoolSelect" class="select"></select>
+        <label class="toggle">
+          <input type="checkbox" id="f26Only" checked>
+          <span>Offered in F26</span>
+        </label>
+      </div>
+    </div>
+    <div class="gened-grid" id="genedGrid"></div>
+  </section>
+</main>
+
+<!-- course detail sheet -->
+<div class="sheet-scrim" id="sheetScrim" hidden></div>
+<aside class="sheet" id="sheet" hidden aria-label="Course details"></aside>
+
+<!-- search palette -->
+<div class="palette-scrim" id="paletteScrim" hidden>
+  <div class="palette" role="dialog" aria-label="Course search">
+    <div class="palette-input">
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M7 1a6 6 0 104.24 10.24l3.26 3.26 1.06-1.06-3.26-3.26A6 6 0 007 1zm0 1.5A4.5 4.5 0 112.5 7 4.5 4.5 0 017 2.5z"/></svg>
+      <input id="paletteInput" type="text" placeholder="Search by number, title, or department" autocomplete="off" spellcheck="false">
+      <button class="palette-close" id="paletteClose" aria-label="Close">esc</button>
+    </div>
+    <div class="palette-context" id="paletteContext" hidden></div>
+    <div class="palette-results" id="paletteResults"></div>
+  </div>
+</div>
+
+<div class="toast" id="toast" hidden></div>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>

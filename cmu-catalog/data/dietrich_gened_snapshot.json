@@ -1,0 +1,5831 @@
+{
+  "_comment": "Dietrich approved general-education courses. Tableau data export is disabled on this workbook and its table is virtualised in a fixed-height dashboard zone, so this comes from the PDF export, which renders the whole crosstab. See extract_tableau_geneds.md.",
+  "source": "https://public.tableau.com/views/GeneralEducationPublicSearchTool/GenEdDashboard",
+  "source_pdf": "Dietrich GenEd Course List.pdf",
+  "columns": [
+    "course_number",
+    "title",
+    "semester",
+    "category",
+    "college",
+    "department"
+  ],
+  "semesters": [
+    "F25",
+    "F26",
+    "M25",
+    "M26",
+    "N25",
+    "S25",
+    "S26"
+  ],
+  "categories": [
+    "Additional Disciplines",
+    "Communication",
+    "Computational Thinking",
+    "Contextual Thinking",
+    "Data Analysis",
+    "Grand Challenge Seminar",
+    "Humanities",
+    "Intercultural and Global Inquiry",
+    "Logic/Mathematical Reasoning",
+    "Perspectives on Justice and Injustice",
+    "Scientific Inquiry",
+    "Social Sciences",
+    "The Arts"
+  ],
+  "rows": [
+    [
+      "03120",
+      "Biology for Life Special Topics Mini",
+      "F25",
+      "Scientific Inquiry",
+      "MCS",
+      "Biological Sciences"
+    ],
+    [
+      "03120",
+      "Biology for Life Special Topics Mini",
+      "F26",
+      "Scientific Inquiry",
+      "MCS",
+      "Biological Sciences"
+    ],
+    [
+      "03120",
+      "Biology for Life Special Topics Mini",
+      "S26",
+      "Scientific Inquiry",
+      "MCS",
+      "Biological Sciences"
+    ],
+    [
+      "03124",
+      "Modern Biology Laboratory",
+      "F25",
+      "Scientific Inquiry",
+      "MCS",
+      "Biological Sciences"
+    ],
+    [
+      "03124",
+      "Modern Biology Laboratory",
+      "F26",
+      "Scientific Inquiry",
+      "MCS",
+      "Biological Sciences"
+    ],
+    [
+      "03124",
+      "Modern Biology Laboratory",
+      "M26",
+      "Scientific Inquiry",
+      "MCS",
+      "Biological Sciences"
+    ],
+    [
+      "03124",
+      "Modern Biology Laboratory",
+      "S25",
+      "Scientific Inquiry",
+      "MCS",
+      "Biological Sciences"
+    ],
+    [
+      "03124",
+      "Modern Biology Laboratory",
+      "S26",
+      "Scientific Inquiry",
+      "MCS",
+      "Biological Sciences"
+    ],
+    [
+      "03125",
+      "Evolution",
+      "F25",
+      "Scientific Inquiry",
+      "MCS",
+      "Biological Sciences"
+    ],
+    [
+      "03125",
+      "Evolution",
+      "F26",
+      "Scientific Inquiry",
+      "MCS",
+      "Biological Sciences"
+    ],
+    [
+      "03132",
+      "Basic Science to Modern Medicine",
+      "M25",
+      "Scientific Inquiry",
+      "MCS",
+      "Biological Sciences"
+    ],
+    [
+      "03132",
+      "Basic Science to Modern Medicine",
+      "M26",
+      "Scientific Inquiry",
+      "MCS",
+      "Biological Sciences"
+    ],
+    [
+      "03132",
+      "Basic Science to Modern Medicine",
+      "N25",
+      "Scientific Inquiry",
+      "MCS",
+      "Biological Sciences"
+    ],
+    [
+      "03133",
+      "Neurobiology of Disease",
+      "M26",
+      "Scientific Inquiry",
+      "MCS",
+      "Biological Sciences"
+    ],
+    [
+      "03133",
+      "Neurobiology of Disease",
+      "N25",
+      "Scientific Inquiry",
+      "MCS",
+      "Biological Sciences"
+    ],
+    [
+      "03133",
+      "Neurobiology of Disease",
+      "S25",
+      "Scientific Inquiry",
+      "MCS",
+      "Biological Sciences"
+    ],
+    [
+      "03133",
+      "Neurobiology of Disease",
+      "S26",
+      "Scientific Inquiry",
+      "MCS",
+      "Biological Sciences"
+    ],
+    [
+      "03135",
+      "Structure and Function of the Human Body",
+      "F25",
+      "Scientific Inquiry",
+      "MCS",
+      "Biological Sciences"
+    ],
+    [
+      "03135",
+      "Structure and Function of the Human Body",
+      "F26",
+      "Scientific Inquiry",
+      "MCS",
+      "Biological Sciences"
+    ],
+    [
+      "05360",
+      "Interaction Design Fundamentals",
+      "F25",
+      "Additional Disciplines",
+      "SCS",
+      "Human-Computer Interaction"
+    ],
+    [
+      "05360",
+      "Interaction Design Fundamentals",
+      "F26",
+      "Additional Disciplines",
+      "SCS",
+      "Human-Computer Interaction"
+    ],
+    [
+      "05360",
+      "Interaction Design Fundamentals",
+      "S25",
+      "Additional Disciplines",
+      "SCS",
+      "Human-Computer Interaction"
+    ],
+    [
+      "05360",
+      "Interaction Design Fundamentals",
+      "S26",
+      "Additional Disciplines",
+      "SCS",
+      "Human-Computer Interaction"
+    ],
+    [
+      "09108",
+      "The Illusion and Magic of Food",
+      "S26",
+      "Scientific Inquiry",
+      "MCS",
+      "Chemistry GenEd Course List"
+    ],
+    [
+      "05360",
+      "Interaction Design Fundamentals",
+      "S26",
+      "Additional Disciplines",
+      "SCS",
+      "Human-Computer Interaction"
+    ],
+    [
+      "09108",
+      "The Illusion and Magic of Food",
+      "S26",
+      "Scientific Inquiry",
+      "MCS",
+      "Chemistry"
+    ],
+    [
+      "09125",
+      "Special Topics in Chemistry: The Chemistry of Chocolate",
+      "F25",
+      "Scientific Inquiry",
+      "MCS",
+      "Chemistry"
+    ],
+    [
+      "09125",
+      "Special Topics in Chemistry: The Chemistry of Chocolate",
+      "F26",
+      "Scientific Inquiry",
+      "MCS",
+      "Chemistry"
+    ],
+    [
+      "09303",
+      "Hooked: The Molecular Basis of Addiction",
+      "F25",
+      "Scientific Inquiry",
+      "MCS",
+      "Chemistry"
+    ],
+    [
+      "09303",
+      "Hooked: The Molecular Basis of Addiction",
+      "F26",
+      "Scientific Inquiry",
+      "MCS",
+      "Chemistry"
+    ],
+    [
+      "10335",
+      "Art and Machine Learning",
+      "S25",
+      "The Arts",
+      "SCS",
+      "Machine Learning"
+    ],
+    [
+      "10335",
+      "Art and Machine Learning",
+      "S26",
+      "The Arts",
+      "SCS",
+      "Machine Learning"
+    ],
+    [
+      "15104",
+      "Introduction to Computing for Creative Practice",
+      "F25",
+      "Computational Thinking",
+      "SCS",
+      "Computer Science"
+    ],
+    [
+      "15110",
+      "Principles of Computing",
+      "F25",
+      "Computational Thinking",
+      "SCS",
+      "Computer Science"
+    ],
+    [
+      "15110",
+      "Principles of Computing",
+      "F26",
+      "Computational Thinking",
+      "SCS",
+      "Computer Science"
+    ],
+    [
+      "15110",
+      "Principles of Computing",
+      "M26",
+      "Computational Thinking",
+      "SCS",
+      "Computer Science"
+    ],
+    [
+      "15110",
+      "Principles of Computing",
+      "N25",
+      "Computational Thinking",
+      "SCS",
+      "Computer Science"
+    ],
+    [
+      "15110",
+      "Principles of Computing",
+      "S25",
+      "Computational Thinking",
+      "SCS",
+      "Computer Science"
+    ],
+    [
+      "15110",
+      "Principles of Computing",
+      "S26",
+      "Computational Thinking",
+      "SCS",
+      "Computer Science"
+    ],
+    [
+      "15112",
+      "Fundamentals of Programming and Computer Science",
+      "F25",
+      "Computational Thinking",
+      "SCS",
+      "Computer Science"
+    ],
+    [
+      "15112",
+      "Fundamentals of Programming and Computer Science",
+      "F26",
+      "Computational Thinking",
+      "SCS",
+      "Computer Science"
+    ],
+    [
+      "15112",
+      "Fundamentals of Programming and Computer Science",
+      "M26",
+      "Computational Thinking",
+      "SCS",
+      "Computer Science"
+    ],
+    [
+      "15112",
+      "Fundamentals of Programming and Computer Science",
+      "N25",
+      "Computational Thinking",
+      "SCS",
+      "Computer Science"
+    ],
+    [
+      "15112",
+      "Fundamentals of Programming and Computer Science",
+      "S25",
+      "Computational Thinking",
+      "SCS",
+      "Computer Science"
+    ],
+    [
+      "15112",
+      "Fundamentals of Programming and Computer Science",
+      "S26",
+      "Computational Thinking",
+      "SCS",
+      "Computer Science"
+    ],
+    [
+      "16223",
+      "IDeATe Portal: Creative Kinetic Systems",
+      "F25",
+      "Additional Disciplines",
+      "SCS",
+      "Robotics"
+    ],
+    [
+      "16223",
+      "IDeATe Portal: Creative Kinetic Systems",
+      "F26",
+      "Additional Disciplines",
+      "SCS",
+      "Robotics"
+    ],
+    [
+      "17200",
+      "Ethics and Policy Issues in Computing",
+      "F25",
+      "Computational Thinking",
+      "SCS",
+      "Software & Societal Systems"
+    ],
+    [
+      "17200",
+      "Ethics and Policy Issues in Computing",
+      "F26",
+      "Computational Thinking",
+      "SCS",
+      "Software & Societal Systems GenEd Course List"
+    ],
+    [
+      "17200",
+      "Ethics and Policy Issues in Computing",
+      "F25",
+      "Computational Thinking",
+      "SCS",
+      "Software & Societal Systems"
+    ],
+    [
+      "17200",
+      "Ethics and Policy Issues in Computing",
+      "F26",
+      "Computational Thinking",
+      "SCS",
+      "Software & Societal Systems"
+    ],
+    [
+      "17200",
+      "Ethics and Policy Issues in Computing",
+      "S25",
+      "Computational Thinking",
+      "SCS",
+      "Software & Societal Systems"
+    ],
+    [
+      "17200",
+      "Ethics and Policy Issues in Computing",
+      "S26",
+      "Computational Thinking",
+      "SCS",
+      "Software & Societal Systems"
+    ],
+    [
+      "17313",
+      "Foundations of Software Engineering",
+      "F25",
+      "Additional Disciplines",
+      "SCS",
+      "Software & Societal Systems"
+    ],
+    [
+      "17313",
+      "Foundations of Software Engineering",
+      "F26",
+      "Additional Disciplines",
+      "SCS",
+      "Software & Societal Systems"
+    ],
+    [
+      "17313",
+      "Foundations of Software Engineering",
+      "S25",
+      "Additional Disciplines",
+      "SCS",
+      "Software & Societal Systems"
+    ],
+    [
+      "17313",
+      "Foundations of Software Engineering",
+      "S26",
+      "Additional Disciplines",
+      "SCS",
+      "Software & Societal Systems"
+    ],
+    [
+      "19101",
+      "Introduction to Engineering and Public Policy",
+      "F25",
+      "Additional Disciplines",
+      "CIT",
+      "Engineering & Public Policy"
+    ],
+    [
+      "19101",
+      "Introduction to Engineering and Public Policy",
+      "F26",
+      "Additional Disciplines",
+      "CIT",
+      "Engineering & Public Policy"
+    ],
+    [
+      "19101",
+      "Introduction to Engineering and Public Policy",
+      "S25",
+      "Additional Disciplines",
+      "CIT",
+      "Engineering & Public Policy"
+    ],
+    [
+      "19101",
+      "Introduction to Engineering and Public Policy",
+      "S26",
+      "Additional Disciplines",
+      "CIT",
+      "Engineering & Public Policy"
+    ],
+    [
+      "19211",
+      "Ethics and Policy Issues in Computing",
+      "S25",
+      "Computational Thinking",
+      "CIT",
+      "Engineering & Public Policy"
+    ],
+    [
+      "19211",
+      "Ethics and Policy Issues in Computing",
+      "S26",
+      "Computational Thinking",
+      "CIT",
+      "Engineering & Public Policy"
+    ],
+    [
+      "21102",
+      "Exploring Modern Mathematics",
+      "N25",
+      "Logic/Mathematical Reasoning",
+      "MCS",
+      "Mathematical Sciences"
+    ],
+    [
+      "21102",
+      "Exploring Modern Mathematics",
+      "S25",
+      "Logic/Mathematical Reasoning",
+      "MCS",
+      "Mathematical Sciences"
+    ],
+    [
+      "21102",
+      "Exploring Modern Mathematics",
+      "S26",
+      "Logic/Mathematical Reasoning",
+      "MCS",
+      "Mathematical Sciences"
+    ],
+    [
+      "21127",
+      "Concepts of Mathematics",
+      "F25",
+      "Logic/Mathematical Reasoning",
+      "MCS",
+      "Mathematical Sciences"
+    ],
+    [
+      "21127",
+      "Concepts of Mathematics",
+      "F26",
+      "Logic/Mathematical Reasoning",
+      "MCS",
+      "Mathematical Sciences"
+    ],
+    [
+      "21127",
+      "Concepts of Mathematics",
+      "M25",
+      "Logic/Mathematical Reasoning",
+      "MCS",
+      "Mathematical Sciences"
+    ],
+    [
+      "21127",
+      "Concepts of Mathematics",
+      "M26",
+      "Logic/Mathematical Reasoning",
+      "MCS",
+      "Mathematical Sciences"
+    ],
+    [
+      "21127",
+      "Concepts of Mathematics",
+      "N25",
+      "Logic/Mathematical Reasoning",
+      "MCS",
+      "Mathematical Sciences"
+    ],
+    [
+      "21127",
+      "Concepts of Mathematics",
+      "S25",
+      "Logic/Mathematical Reasoning",
+      "MCS",
+      "Mathematical Sciences"
+    ],
+    [
+      "21127",
+      "Concepts of Mathematics",
+      "S26",
+      "Logic/Mathematical Reasoning",
+      "MCS",
+      "Mathematical Sciences"
+    ],
+    [
+      "24291",
+      "Environmental Systems on a Changing Planet",
+      "S26",
+      "Scientific Inquiry",
+      "CIT",
+      "Mechanical Engineering GenEd Course List"
+    ],
+    [
+      "21127",
+      "Concepts of Mathematics",
+      "S26",
+      "Logic/Mathematical Reasoning",
+      "MCS",
+      "Mathematical Sciences"
+    ],
+    [
+      "24291",
+      "Environmental Systems on a Changing Planet",
+      "S26",
+      "Scientific Inquiry",
+      "CIT",
+      "Mechanical Engineering"
+    ],
+    [
+      "33100",
+      "Basic Experimental Physics",
+      "F25",
+      "Scientific Inquiry",
+      "MCS",
+      "Physics"
+    ],
+    [
+      "33100",
+      "Basic Experimental Physics",
+      "F26",
+      "Scientific Inquiry",
+      "MCS",
+      "Physics"
+    ],
+    [
+      "33100",
+      "Basic Experimental Physics",
+      "M25",
+      "Scientific Inquiry",
+      "MCS",
+      "Physics"
+    ],
+    [
+      "33100",
+      "Basic Experimental Physics",
+      "M26",
+      "Scientific Inquiry",
+      "MCS",
+      "Physics"
+    ],
+    [
+      "33100",
+      "Basic Experimental Physics",
+      "S25",
+      "Scientific Inquiry",
+      "MCS",
+      "Physics"
+    ],
+    [
+      "33100",
+      "Basic Experimental Physics",
+      "S26",
+      "Scientific Inquiry",
+      "MCS",
+      "Physics"
+    ],
+    [
+      "33104",
+      "Experimental Physics",
+      "F25",
+      "Scientific Inquiry",
+      "MCS",
+      "Physics"
+    ],
+    [
+      "33104",
+      "Experimental Physics",
+      "F26",
+      "Scientific Inquiry",
+      "MCS",
+      "Physics"
+    ],
+    [
+      "33104",
+      "Experimental Physics",
+      "M25",
+      "Scientific Inquiry",
+      "MCS",
+      "Physics"
+    ],
+    [
+      "33104",
+      "Experimental Physics",
+      "M26",
+      "Scientific Inquiry",
+      "MCS",
+      "Physics"
+    ],
+    [
+      "33104",
+      "Experimental Physics",
+      "S25",
+      "Scientific Inquiry",
+      "MCS",
+      "Physics"
+    ],
+    [
+      "33104",
+      "Experimental Physics",
+      "S26",
+      "Scientific Inquiry",
+      "MCS",
+      "Physics"
+    ],
+    [
+      "33114",
+      "Physics of Musical Sound",
+      "S25",
+      "Scientific Inquiry",
+      "MCS",
+      "Physics"
+    ],
+    [
+      "33114",
+      "Physics of Musical Sound",
+      "S26",
+      "Scientific Inquiry",
+      "MCS",
+      "Physics"
+    ],
+    [
+      "33115",
+      "Physics for Future Presidents",
+      "F25",
+      "Scientific Inquiry",
+      "MCS",
+      "Physics"
+    ],
+    [
+      "33115",
+      "Physics for Future Presidents",
+      "F26",
+      "Scientific Inquiry",
+      "MCS",
+      "Physics"
+    ],
+    [
+      "33115",
+      "Physics for Future Presidents",
+      "N25",
+      "Scientific Inquiry",
+      "MCS",
+      "Physics"
+    ],
+    [
+      "33115",
+      "Physics for Future Presidents",
+      "S25",
+      "Scientific Inquiry",
+      "MCS",
+      "Physics"
+    ],
+    [
+      "33120",
+      "Science and Science Fiction",
+      "F25",
+      "Scientific Inquiry",
+      "MCS",
+      "Physics"
+    ],
+    [
+      "33120",
+      "Science and Science Fiction",
+      "F26",
+      "Scientific Inquiry",
+      "MCS",
+      "Physics"
+    ],
+    [
+      "33120",
+      "Science and Science Fiction",
+      "S25",
+      "Scientific Inquiry",
+      "MCS",
+      "Physics"
+    ],
+    [
+      "33120",
+      "Science and Science Fiction",
+      "S26",
+      "Scientific Inquiry",
+      "MCS",
+      "Physics"
+    ],
+    [
+      "33120",
+      "Science and Science Fiction",
+      "F25",
+      "Data Analysis",
+      "DC",
+      "Statistics and Data Science GenEd Course List"
+    ],
+    [
+      "33120",
+      "Science and Science Fiction",
+      "S26",
+      "Scientific Inquiry",
+      "MCS",
+      "Physics"
+    ],
+    [
+      "36200",
+      "Reasoning with Data",
+      "F25",
+      "Data Analysis",
+      "DC",
+      "Statistics and Data Science"
+    ],
+    [
+      "36200",
+      "Reasoning with Data",
+      "F26",
+      "Data Analysis",
+      "DC",
+      "Statistics and Data Science"
+    ],
+    [
+      "36200",
+      "Reasoning with Data",
+      "M25",
+      "Data Analysis",
+      "DC",
+      "Statistics and Data Science"
+    ],
+    [
+      "36200",
+      "Reasoning with Data",
+      "M26",
+      "Data Analysis",
+      "DC",
+      "Statistics and Data Science"
+    ],
+    [
+      "36200",
+      "Reasoning with Data",
+      "N25",
+      "Data Analysis",
+      "DC",
+      "Statistics and Data Science"
+    ],
+    [
+      "36200",
+      "Reasoning with Data",
+      "S25",
+      "Data Analysis",
+      "DC",
+      "Statistics and Data Science"
+    ],
+    [
+      "36200",
+      "Reasoning with Data",
+      "S26",
+      "Data Analysis",
+      "DC",
+      "Statistics and Data Science"
+    ],
+    [
+      "36202",
+      "Methods for Statistics & Data Science",
+      "F25",
+      "Computational Thinking",
+      "DC",
+      "Statistics and Data Science"
+    ],
+    [
+      "36202",
+      "Methods for Statistics & Data Science",
+      "F26",
+      "Computational Thinking",
+      "DC",
+      "Statistics and Data Science"
+    ],
+    [
+      "36202",
+      "Methods for Statistics & Data Science",
+      "M26",
+      "Computational Thinking",
+      "DC",
+      "Statistics and Data Science"
+    ],
+    [
+      "36202",
+      "Methods for Statistics & Data Science",
+      "N25",
+      "Computational Thinking",
+      "DC",
+      "Statistics and Data Science"
+    ],
+    [
+      "36202",
+      "Methods for Statistics & Data Science",
+      "S25",
+      "Computational Thinking",
+      "DC",
+      "Statistics and Data Science"
+    ],
+    [
+      "36202",
+      "Methods for Statistics & Data Science",
+      "S26",
+      "Computational Thinking",
+      "DC",
+      "Statistics and Data Science"
+    ],
+    [
+      "36315",
+      "Statistical Graphics and Visualization",
+      "F25",
+      "Additional Disciplines",
+      "DC",
+      "Statistics and Data Science"
+    ],
+    [
+      "36315",
+      "Statistical Graphics and Visualization",
+      "F26",
+      "Additional Disciplines",
+      "DC",
+      "Statistics and Data Science"
+    ],
+    [
+      "36315",
+      "Statistical Graphics and Visualization",
+      "M25",
+      "Additional Disciplines",
+      "DC",
+      "Statistics and Data Science"
+    ],
+    [
+      "36315",
+      "Statistical Graphics and Visualization",
+      "M26",
+      "Additional Disciplines",
+      "DC",
+      "Statistics and Data Science"
+    ],
+    [
+      "36315",
+      "Statistical Graphics and Visualization",
+      "S25",
+      "Additional Disciplines",
+      "DC",
+      "Statistics and Data Science"
+    ],
+    [
+      "36315",
+      "Statistical Graphics and Visualization",
+      "S26",
+      "Additional Disciplines",
+      "DC",
+      "Statistics and Data Science"
+    ],
+    [
+      "48095",
+      "Spatial Concepts for Non-Architecture Majors",
+      "F25",
+      "Additional Disciplines",
+      "CFA",
+      "Architecture"
+    ],
+    [
+      "48095",
+      "Spatial Concepts for Non-Architecture Majors",
+      "F26",
+      "Additional Disciplines",
+      "CFA",
+      "Architecture"
+    ],
+    [
+      "49101",
+      "Introduction to Engineering Design, Innovation, and Entrepreneurship",
+      "F25",
+      "Additional Disciplines",
+      "CMU",
+      "Integrated Innovation Institute"
+    ],
+    [
+      "49101",
+      "Introduction to Engineering Design, Innovation, and Entrepreneurship",
+      "F26",
+      "Additional Disciplines",
+      "CMU",
+      "Integrated Innovation Institute"
+    ],
+    [
+      "49101",
+      "Introduction to Engineering Design, Innovation, and Entrepreneurship",
+      "S25",
+      "Additional Disciplines",
+      "CMU",
+      "Integrated Innovation Institute GenEd Course List"
+    ],
+    [
+      "49101",
+      "Introduction to Engineering Design, Innovation, and Entrepreneurship",
+      "F26",
+      "Additional Disciplines",
+      "CMU",
+      "Integrated Innovation Institute"
+    ],
+    [
+      "49101",
+      "Introduction to Engineering Design, Innovation, and Entrepreneurship",
+      "S25",
+      "Additional Disciplines",
+      "CMU",
+      "Integrated Innovation Institute"
+    ],
+    [
+      "49101",
+      "Introduction to Engineering Design, Innovation, and Entrepreneurship",
+      "S26",
+      "Additional Disciplines",
+      "CMU",
+      "Integrated Innovation Institute"
+    ],
+    [
+      "51368",
+      "Moving Pictures",
+      "F25",
+      "The Arts",
+      "CFA",
+      "Design"
+    ],
+    [
+      "51368",
+      "Moving Pictures",
+      "F26",
+      "The Arts",
+      "CFA",
+      "Design"
+    ],
+    [
+      "53322",
+      "IDeATe: Little Games/Big Stories: Indie Tabletop Roleplaying Game Studio",
+      "F26",
+      "Additional Disciplines",
+      "CMU",
+      "Entertainment Technology"
+    ],
+    [
+      "53322",
+      "IDeATe: Little Games/Big Stories: Indie Tabletop Roleplaying Game Studio",
+      "S25",
+      "Additional Disciplines",
+      "CMU",
+      "Entertainment Technology"
+    ],
+    [
+      "53322",
+      "IDeATe: Little Games/Big Stories: Indie Tabletop Roleplaying Game Studio",
+      "S26",
+      "Additional Disciplines",
+      "CMU",
+      "Entertainment Technology"
+    ],
+    [
+      "54215",
+      "Theater History I: 500 BCE-1640",
+      "F26",
+      "The Arts",
+      "CFA",
+      "Drama"
+    ],
+    [
+      "57411",
+      "Musical Theater on Stage and Screen",
+      "F25",
+      "The Arts",
+      "CFA",
+      "Music"
+    ],
+    [
+      "57411",
+      "Musical Theater on Stage and Screen",
+      "F26",
+      "The Arts",
+      "CFA",
+      "Music"
+    ],
+    [
+      "57411",
+      "Musical Theater on Stage and Screen",
+      "M26",
+      "The Arts",
+      "CFA",
+      "Music"
+    ],
+    [
+      "57411",
+      "Musical Theater on Stage and Screen",
+      "N25",
+      "The Arts",
+      "CFA",
+      "Music"
+    ],
+    [
+      "60105",
+      "Cultural History of the Visual Arts",
+      "F25",
+      "The Arts",
+      "CFA",
+      "Art"
+    ],
+    [
+      "60105",
+      "Cultural History of the Visual Arts",
+      "F26",
+      "The Arts",
+      "CFA",
+      "Art"
+    ],
+    [
+      "60106",
+      "Cultural History of the Visual Arts - the Modern Period",
+      "S25",
+      "The Arts",
+      "CFA",
+      "Art"
+    ],
+    [
+      "60106",
+      "Cultural History of the Visual Arts - the Modern Period",
+      "S26",
+      "The Arts",
+      "CFA",
+      "Art"
+    ],
+    [
+      "60223",
+      "IDeATe Portal: Introduction to Physical Computing",
+      "F25",
+      "Additional Disciplines",
+      "CFA",
+      "Art"
+    ],
+    [
+      "60223",
+      "IDeATe Portal: Introduction to Physical Computing",
+      "F26",
+      "Additional Disciplines",
+      "CFA",
+      "Art IDeATe: Introduction to Physical Computing"
+    ],
+    [
+      "60223",
+      "IDeATe Portal: Introduction to Physical Computing",
+      "S25",
+      "Additional Disciplines",
+      "CFA",
+      "Art"
+    ],
+    [
+      "60223",
+      "IDeATe Portal: Introduction to Physical Computing",
+      "S26",
+      "Additional Disciplines",
+      "CFA",
+      "Art"
+    ],
+    [
+      "62142",
+      "Digital Photography I",
+      "F25",
+      "The Arts",
+      "CFA",
+      "CFA Interdisciplinary"
+    ],
+    [
+      "62142",
+      "Digital Photography I",
+      "F26",
+      "The Arts",
+      "CFA",
+      "CFA Interdisciplinary"
+    ],
+    [
+      "62142",
+      "Digital Photography I",
+      "S25",
+      "The Arts",
+      "CFA",
+      "CFA Interdisciplinary"
+    ],
+    [
+      "62142",
+      "Digital Photography I",
+      "S26",
+      "The Arts",
+      "CFA",
+      "CFA Interdisciplinary GenEd Course List"
+    ],
+    [
+      "62142",
+      "Digital Photography I",
+      "S25",
+      "The Arts",
+      "CFA",
+      "CFA Interdisciplinary"
+    ],
+    [
+      "62142",
+      "Digital Photography I",
+      "S26",
+      "The Arts",
+      "CFA",
+      "CFA Interdisciplinary"
+    ],
+    [
+      "62150",
+      "IDeATe Portal: Introduction to Media Synthesis and Analysis",
+      "F25",
+      "Additional Disciplines",
+      "CFA",
+      "CFA Interdisciplinary"
+    ],
+    [
+      "62150",
+      "IDeATe Portal: Introduction to Media Synthesis and Analysis",
+      "F26",
+      "Additional Disciplines",
+      "CFA",
+      "CFA Interdisciplinary"
+    ],
+    [
+      "62150",
+      "IDeATe Portal: Introduction to Media Synthesis and Analysis",
+      "S25",
+      "Additional Disciplines",
+      "CFA",
+      "CFA Interdisciplinary"
+    ],
+    [
+      "62150",
+      "IDeATe Portal: Introduction to Media Synthesis and Analysis",
+      "S26",
+      "Additional Disciplines",
+      "CFA",
+      "CFA Interdisciplinary"
+    ],
+    [
+      "66118",
+      "DC Grand Challenge First-Year Seminar: Thinki..",
+      "F25",
+      "Grand Challenge Seminar",
+      "DC",
+      "Dietrich College Interdisciplinary"
+    ],
+    [
+      "66131",
+      "DC Grand Challenge First-Year Seminar: Cultur..",
+      "F25",
+      "Grand Challenge Seminar",
+      "DC",
+      "Dietrich College Interdisciplinary"
+    ],
+    [
+      "66133",
+      "DC Grand Challenge Seminar: We're Not Beyond Race: Race and Identity in America",
+      "F26",
+      "Grand Challenge Seminar",
+      "DC",
+      "Dietrich College Interdisciplinary"
+    ],
+    [
+      "66133",
+      "DC Grand Challenge Seminar: We're Not Beyond Race: Race and Identity in America",
+      "S25",
+      "Grand Challenge Seminar",
+      "DC",
+      "Dietrich College Interdisciplinary"
+    ],
+    [
+      "66133",
+      "DC Grand Challenge Seminar: We're Not Beyond Race: Race and Identity in America",
+      "S26",
+      "Grand Challenge Seminar",
+      "DC",
+      "Dietrich College Interdisciplinary"
+    ],
+    [
+      "66136",
+      "DC Grand Challenge First-Year Seminar: Becoming Resilient in Challenging Times",
+      "F25",
+      "Grand Challenge Seminar",
+      "DC",
+      "Dietrich College Interdisciplinary"
+    ],
+    [
+      "66136",
+      "DC Grand Challenge First-Year Seminar: Becoming Resilient in Challenging Times",
+      "F26",
+      "Grand Challenge Seminar",
+      "DC",
+      "Dietrich College Interdisciplinary"
+    ],
+    [
+      "66140",
+      "Grand Challenge Seminar: Equitable Access and Succ..",
+      "S25",
+      "Grand Challenge Seminar",
+      "DC",
+      "Dietrich College Interdisciplinary"
+    ],
+    [
+      "66141",
+      "DC Grand Challenge Seminar: Freedom of Spee..",
+      "F26",
+      "Grand Challenge Seminar",
+      "DC",
+      "Dietrich College Interdisciplinary"
+    ],
+    [
+      "66143",
+      "DC Grand Challenge Seminar: Achieving Justic..",
+      "S25",
+      "Grand Challenge Seminar",
+      "DC",
+      "Dietrich College Interdisciplinary DC Grand Challenge Seminar:Realizing Human.."
+    ],
+    [
+      "66143",
+      "DC Grand Challenge Seminar: Achieving Justic..",
+      "S26",
+      "Grand Challenge Seminar",
+      "DC",
+      "Dietrich College Interdisciplinary"
+    ],
+    [
+      "66145",
+      "DC First Year Seminar: Appalachia: Development, Decline, and Identity in America",
+      "F25",
+      "Grand Challenge Seminar",
+      "DC",
+      "Dietrich College Interdisciplinary"
+    ],
+    [
+      "66145",
+      "DC First Year Seminar: Appalachia: Development, Decline, and Identity in America",
+      "S25",
+      "Grand Challenge Seminar",
+      "DC",
+      "Dietrich College Interdisciplinary"
+    ],
+    [
+      "66146",
+      "DC 1st Year Seminar: From Pandemics to Politics: Modeling Complex Social Systems",
+      "F25",
+      "Grand Challenge Seminar",
+      "DC",
+      "Dietrich College Interdisciplinary"
+    ],
+    [
+      "66146",
+      "DC 1st Year Seminar: From Pandemics to Politics: Modeling Complex Social Systems",
+      "F26",
+      "Grand Challenge Seminar",
+      "DC",
+      "Dietrich College Interdisciplinary"
+    ],
+    [
+      "66147",
+      "DC Grand Challenge First-Year Seminar: (Mis)..",
+      "F26",
+      "Grand Challenge Seminar",
+      "DC",
+      "Dietrich College Interdisciplinary"
+    ],
+    [
+      "66151",
+      "DC Grand Challenge First-Year Seminar: Equit..",
+      "F25",
+      "Grand Challenge Seminar",
+      "DC",
+      "Dietrich College Interdisciplinary"
+    ],
+    [
+      "66152",
+      "Dietrich College Grand Challenge Seminar: Gender: Contemporary Issues",
+      "F25",
+      "Grand Challenge Seminar",
+      "DC",
+      "Dietrich College Interdisciplinary"
+    ],
+    [
+      "66152",
+      "Dietrich College Grand Challenge Seminar: Gender: Contemporary Issues",
+      "F26",
+      "Grand Challenge Seminar",
+      "DC",
+      "Dietrich College Interdisciplinary GenEd Course List"
+    ],
+    [
+      "66152",
+      "Dietrich College Grand Challenge Seminar: Gender: Contemporary Issues",
+      "F25",
+      "Grand Challenge Seminar",
+      "DC",
+      "Dietrich College Interdisciplinary"
+    ],
+    [
+      "66152",
+      "Dietrich College Grand Challenge Seminar: Gender: Contemporary Issues",
+      "F26",
+      "Grand Challenge Seminar",
+      "DC",
+      "Dietrich College Interdisciplinary"
+    ],
+    [
+      "66153",
+      "DC Grand Challenge First Year Seminar: TL;DR Cultu..",
+      "S26",
+      "Grand Challenge Seminar",
+      "DC",
+      "Dietrich College Interdisciplinary"
+    ],
+    [
+      "66154",
+      "DC Grand Challenge First Year Seminar: AI, Humanity, Future of Knowledge Creativ",
+      "F26",
+      "Grand Challenge Seminar",
+      "DC",
+      "Dietrich College Interdisciplinary"
+    ],
+    [
+      "66154",
+      "DC Grand Challenge First Year Seminar: AI, Humanity, Future of Knowledge Creativ",
+      "S26",
+      "Grand Challenge Seminar",
+      "DC",
+      "Dietrich College Interdisciplinary"
+    ],
+    [
+      "66155",
+      "DC Grand Challenge Seminar: Sports Betting, ..",
+      "S26",
+      "Grand Challenge Seminar",
+      "DC",
+      "Dietrich College Interdisciplinary"
+    ],
+    [
+      "66236",
+      "Introduction to Environmental Ideas",
+      "F25",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "Dietrich College Interdisciplinary"
+    ],
+    [
+      "66236",
+      "Introduction to Environmental Ideas",
+      "F26",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "Dietrich College Interdisciplinary"
+    ],
+    [
+      "66236",
+      "Introduction to Environmental Ideas",
+      "S25",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "Dietrich College Interdisciplinary"
+    ],
+    [
+      "66236",
+      "Introduction to Environmental Ideas",
+      "S26",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "Dietrich College Interdisciplinary"
+    ],
+    [
+      "67240",
+      "Mobile Web Design & Development",
+      "F25",
+      "Computational Thinking",
+      "CMU",
+      "Information Systems Program"
+    ],
+    [
+      "70100",
+      "Global Business",
+      "S25",
+      "Additional Disciplines",
+      "TSB",
+      "Business Administration"
+    ],
+    [
+      "70101",
+      "Business Strategy Fundamentals",
+      "F25",
+      "Additional Disciplines",
+      "TSB",
+      "Business Administration"
+    ],
+    [
+      "70101",
+      "Business Strategy Fundamentals",
+      "F26",
+      "Additional Disciplines",
+      "TSB",
+      "Business Administration"
+    ],
+    [
+      "70101",
+      "Business Strategy Fundamentals",
+      "S26",
+      "Additional Disciplines",
+      "TSB",
+      "Business Administration"
+    ],
+    [
+      "70122",
+      "Introduction to Accounting",
+      "F25",
+      "Additional Disciplines",
+      "TSB",
+      "Business Administration"
+    ],
+    [
+      "70122",
+      "Introduction to Accounting",
+      "F26",
+      "Additional Disciplines",
+      "TSB",
+      "Business Administration"
+    ],
+    [
+      "70122",
+      "Introduction to Accounting",
+      "M26",
+      "Additional Disciplines",
+      "TSB",
+      "Business Administration"
+    ],
+    [
+      "70122",
+      "Introduction to Accounting",
+      "N25",
+      "Additional Disciplines",
+      "TSB",
+      "Business Administration"
+    ],
+    [
+      "70122",
+      "Introduction to Accounting",
+      "S25",
+      "Additional Disciplines",
+      "TSB",
+      "Business Administration"
+    ],
+    [
+      "70122",
+      "Introduction to Accounting",
+      "S26",
+      "Additional Disciplines",
+      "TSB",
+      "Business Administration"
+    ],
+    [
+      "70246",
+      "Innovation & Entrepreneurial Mindset",
+      "F25",
+      "Additional Disciplines",
+      "TSB",
+      "Business Administration"
+    ],
+    [
+      "70246",
+      "Innovation & Entrepreneurial Mindset",
+      "F26",
+      "Additional Disciplines",
+      "TSB",
+      "Business Administration"
+    ],
+    [
+      "70246",
+      "Innovation & Entrepreneurial Mindset",
+      "S25",
+      "Additional Disciplines",
+      "TSB",
+      "Business Administration"
+    ],
+    [
+      "70246",
+      "Innovation & Entrepreneurial Mindset",
+      "S26",
+      "Additional Disciplines",
+      "TSB",
+      "Business Administration GenEd Course List"
+    ],
+    [
+      "70246",
+      "Innovation & Entrepreneurial Mindset",
+      "S25",
+      "Additional Disciplines",
+      "TSB",
+      "Business Administration"
+    ],
+    [
+      "70246",
+      "Innovation & Entrepreneurial Mindset",
+      "S26",
+      "Additional Disciplines",
+      "TSB",
+      "Business Administration"
+    ],
+    [
+      "70334",
+      "Ethics of Emerging Technologies",
+      "S26",
+      "Contextual Thinking",
+      "TSB",
+      "Business Administration"
+    ],
+    [
+      "70350",
+      "Acting for Business",
+      "F25",
+      "The Arts",
+      "TSB",
+      "Business Administration"
+    ],
+    [
+      "70350",
+      "Acting for Business",
+      "F26",
+      "The Arts",
+      "TSB",
+      "Business Administration"
+    ],
+    [
+      "70350",
+      "Acting for Business",
+      "S25",
+      "The Arts",
+      "TSB",
+      "Business Administration"
+    ],
+    [
+      "70350",
+      "Acting for Business",
+      "S26",
+      "The Arts",
+      "TSB",
+      "Business Administration"
+    ],
+    [
+      "70415",
+      "Introduction to Entrepreneurship",
+      "F25",
+      "Additional Disciplines",
+      "TSB",
+      "Business Administration"
+    ],
+    [
+      "70415",
+      "Introduction to Entrepreneurship",
+      "F26",
+      "Additional Disciplines",
+      "TSB",
+      "Business Administration"
+    ],
+    [
+      "70415",
+      "Introduction to Entrepreneurship",
+      "S25",
+      "Additional Disciplines",
+      "TSB",
+      "Business Administration"
+    ],
+    [
+      "70415",
+      "Introduction to Entrepreneurship",
+      "S26",
+      "Additional Disciplines",
+      "TSB",
+      "Business Administration"
+    ],
+    [
+      "70455",
+      "Data Management Fundamentals",
+      "F25",
+      "Computational Thinking",
+      "TSB",
+      "Business Administration"
+    ],
+    [
+      "70455",
+      "Data Management Fundamentals",
+      "F26",
+      "Computational Thinking",
+      "TSB",
+      "Business Administration"
+    ],
+    [
+      "70455",
+      "Data Management Fundamentals",
+      "S25",
+      "Computational Thinking",
+      "TSB",
+      "Business Administration"
+    ],
+    [
+      "70455",
+      "Data Management Fundamentals",
+      "S26",
+      "Computational Thinking",
+      "TSB",
+      "Business Administration"
+    ],
+    [
+      "73102",
+      "Principles of Microeconomics",
+      "F25",
+      "Social Sciences",
+      "DC",
+      "Economics"
+    ],
+    [
+      "73102",
+      "Principles of Microeconomics",
+      "F26",
+      "Social Sciences",
+      "DC",
+      "Economics"
+    ],
+    [
+      "73102",
+      "Principles of Microeconomics",
+      "M26",
+      "Social Sciences",
+      "DC",
+      "Economics"
+    ],
+    [
+      "73102",
+      "Principles of Microeconomics",
+      "N25",
+      "Social Sciences",
+      "DC",
+      "Economics"
+    ],
+    [
+      "73102",
+      "Principles of Microeconomics",
+      "S25",
+      "Social Sciences",
+      "DC",
+      "Economics"
+    ],
+    [
+      "73102",
+      "Principles of Microeconomics",
+      "S26",
+      "Social Sciences",
+      "DC",
+      "Economics"
+    ],
+    [
+      "73103",
+      "Principles of Macroeconomics",
+      "F25",
+      "Social Sciences",
+      "DC",
+      "Economics"
+    ],
+    [
+      "73103",
+      "Principles of Macroeconomics",
+      "F26",
+      "Social Sciences",
+      "DC",
+      "Economics"
+    ],
+    [
+      "73103",
+      "Principles of Macroeconomics",
+      "M26",
+      "Social Sciences",
+      "DC",
+      "Economics"
+    ],
+    [
+      "73103",
+      "Principles of Macroeconomics",
+      "S25",
+      "Social Sciences",
+      "DC",
+      "Economics GenEd Course List"
+    ],
+    [
+      "73103",
+      "Principles of Macroeconomics",
+      "M26",
+      "Social Sciences",
+      "DC",
+      "Economics"
+    ],
+    [
+      "73103",
+      "Principles of Macroeconomics",
+      "S25",
+      "Social Sciences",
+      "DC",
+      "Economics"
+    ],
+    [
+      "73103",
+      "Principles of Macroeconomics",
+      "S26",
+      "Social Sciences",
+      "DC",
+      "Economics"
+    ],
+    [
+      "73104",
+      "Principles of Microeconomics Accelerated",
+      "F25",
+      "Social Sciences",
+      "DC",
+      "Economics"
+    ],
+    [
+      "73104",
+      "Principles of Microeconomics Accelerated",
+      "F26",
+      "Social Sciences",
+      "DC",
+      "Economics"
+    ],
+    [
+      "73155",
+      "Models, Math, and Markets",
+      "F25",
+      "Logic/Mathematical Reasoning",
+      "DC",
+      "Economics"
+    ],
+    [
+      "73155",
+      "Models, Math, and Markets",
+      "F26",
+      "Logic/Mathematical Reasoning",
+      "DC",
+      "Economics"
+    ],
+    [
+      "73265",
+      "Economics and Data Science",
+      "F25",
+      "Computational Thinking",
+      "DC",
+      "Economics"
+    ],
+    [
+      "73265",
+      "Economics and Data Science",
+      "F26",
+      "Computational Thinking",
+      "DC",
+      "Economics"
+    ],
+    [
+      "73265",
+      "Economics and Data Science",
+      "S25",
+      "Computational Thinking",
+      "DC",
+      "Economics"
+    ],
+    [
+      "73265",
+      "Economics and Data Science",
+      "S26",
+      "Computational Thinking",
+      "DC",
+      "Economics"
+    ],
+    [
+      "73347",
+      "Game Theory Applications for Economics and Business",
+      "F25",
+      "Logic/Mathematical Reasoning",
+      "DC",
+      "Economics"
+    ],
+    [
+      "73347",
+      "Game Theory Applications for Economics and Business",
+      "F26",
+      "Logic/Mathematical Reasoning",
+      "DC",
+      "Economics"
+    ],
+    [
+      "76101",
+      "Interpretation and Argument",
+      "F25",
+      "Communication",
+      "DC",
+      "English"
+    ],
+    [
+      "76101",
+      "Interpretation and Argument",
+      "F26",
+      "Communication",
+      "DC",
+      "English"
+    ],
+    [
+      "76101",
+      "Interpretation and Argument",
+      "M25",
+      "Communication",
+      "DC",
+      "English"
+    ],
+    [
+      "76101",
+      "Interpretation and Argument",
+      "M26",
+      "Communication",
+      "DC",
+      "English"
+    ],
+    [
+      "76101",
+      "Interpretation and Argument",
+      "N25",
+      "Communication",
+      "DC",
+      "English"
+    ],
+    [
+      "76101",
+      "Interpretation and Argument",
+      "S25",
+      "Communication",
+      "DC",
+      "English"
+    ],
+    [
+      "76101",
+      "Interpretation and Argument",
+      "S26",
+      "Communication",
+      "DC",
+      "English"
+    ],
+    [
+      "76102",
+      "Advanced First Year Writing: Special Topics",
+      "F25",
+      "Communication",
+      "DC",
+      "English"
+    ],
+    [
+      "76102",
+      "Advanced First Year Writing: Special Topics",
+      "F26",
+      "Communication",
+      "DC",
+      "English"
+    ],
+    [
+      "76106",
+      "Writing about Literature, Art and Culture",
+      "F25",
+      "Communication",
+      "DC",
+      "English"
+    ],
+    [
+      "76106",
+      "Writing about Literature, Art and Culture",
+      "F26",
+      "Communication",
+      "DC",
+      "English"
+    ],
+    [
+      "76106",
+      "Writing about Literature, Art and Culture",
+      "S25",
+      "Communication",
+      "DC",
+      "English GenEd Course List"
+    ],
+    [
+      "76106",
+      "Writing about Literature, Art and Culture",
+      "F26",
+      "Communication",
+      "DC",
+      "English"
+    ],
+    [
+      "76106",
+      "Writing about Literature, Art and Culture",
+      "S25",
+      "Communication",
+      "DC",
+      "English"
+    ],
+    [
+      "76106",
+      "Writing about Literature, Art and Culture",
+      "S26",
+      "Communication",
+      "DC",
+      "English"
+    ],
+    [
+      "76107",
+      "Writing about Data",
+      "F25",
+      "Communication",
+      "DC",
+      "English"
+    ],
+    [
+      "76107",
+      "Writing about Data",
+      "F26",
+      "Communication",
+      "DC",
+      "English"
+    ],
+    [
+      "76107",
+      "Writing about Data",
+      "S25",
+      "Communication",
+      "DC",
+      "English"
+    ],
+    [
+      "76107",
+      "Writing about Data",
+      "S26",
+      "Communication",
+      "DC",
+      "English"
+    ],
+    [
+      "76108",
+      "Writing about Public Problems",
+      "F25",
+      "Communication",
+      "DC",
+      "English"
+    ],
+    [
+      "76108",
+      "Writing about Public Problems",
+      "F26",
+      "Communication",
+      "DC",
+      "English"
+    ],
+    [
+      "76108",
+      "Writing about Public Problems",
+      "S25",
+      "Communication",
+      "DC",
+      "English"
+    ],
+    [
+      "76108",
+      "Writing about Public Problems",
+      "S26",
+      "Communication",
+      "DC",
+      "English"
+    ],
+    [
+      "76210",
+      "Banned Books",
+      "F26",
+      "Humanities",
+      "DC",
+      "English"
+    ],
+    [
+      "76210",
+      "Banned Books",
+      "S26",
+      "Humanities",
+      "DC",
+      "English"
+    ],
+    [
+      "76211",
+      "Model Minorities?: Introduction to Asian American Studies",
+      "F25",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "English"
+    ],
+    [
+      "76211",
+      "Model Minorities?: Introduction to Asian American Studies",
+      "S26",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "English"
+    ],
+    [
+      "76219",
+      "Law & Blame",
+      "F25",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "English"
+    ],
+    [
+      "76219",
+      "Law & Blame",
+      "F26",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "English"
+    ],
+    [
+      "76219",
+      "Law & Blame",
+      "S25",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "English"
+    ],
+    [
+      "76239",
+      "Introduction to Film Studies",
+      "F25",
+      "The Arts",
+      "DC",
+      "English"
+    ],
+    [
+      "76239",
+      "Introduction to Film Studies",
+      "F26",
+      "The Arts",
+      "DC",
+      "English"
+    ],
+    [
+      "76239",
+      "Introduction to Film Studies",
+      "M25",
+      "The Arts",
+      "DC",
+      "English"
+    ],
+    [
+      "76239",
+      "Introduction to Film Studies",
+      "M26",
+      "The Arts",
+      "DC",
+      "English"
+    ],
+    [
+      "76239",
+      "Introduction to Film Studies",
+      "S25",
+      "The Arts",
+      "DC",
+      "English"
+    ],
+    [
+      "76239",
+      "Introduction to Film Studies",
+      "S26",
+      "The Arts",
+      "DC",
+      "English"
+    ],
+    [
+      "76239",
+      "Introduction to Film Studies",
+      "F25",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "English GenEd Course List"
+    ],
+    [
+      "76239",
+      "Introduction to Film Studies",
+      "S26",
+      "The Arts",
+      "DC",
+      "English"
+    ],
+    [
+      "76241",
+      "Introduction to Gender Studies",
+      "F25",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "English"
+    ],
+    [
+      "76241",
+      "Introduction to Gender Studies",
+      "F26",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "English"
+    ],
+    [
+      "76241",
+      "Introduction to Gender Studies",
+      "M26",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "English"
+    ],
+    [
+      "76241",
+      "Introduction to Gender Studies",
+      "S26",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "English"
+    ],
+    [
+      "76245",
+      "Shakespeare: Tragedies & Histories",
+      "F25",
+      "Contextual Thinking",
+      "DC",
+      "English"
+    ],
+    [
+      "76245",
+      "Shakespeare: Tragedies & Histories",
+      "F26",
+      "Contextual Thinking",
+      "DC",
+      "English"
+    ],
+    [
+      "76247",
+      "Shakespeare: Comedies and Romances",
+      "N25",
+      "Contextual Thinking",
+      "DC",
+      "English"
+    ],
+    [
+      "76247",
+      "Shakespeare: Comedies and Romances",
+      "S25",
+      "Contextual Thinking",
+      "DC",
+      "English"
+    ],
+    [
+      "76247",
+      "Shakespeare: Comedies and Romances",
+      "S26",
+      "Contextual Thinking",
+      "DC",
+      "English"
+    ],
+    [
+      "76259",
+      "Film History",
+      "F25",
+      "Contextual Thinking",
+      "DC",
+      "English"
+    ],
+    [
+      "76259",
+      "Film History",
+      "S26",
+      "Contextual Thinking",
+      "DC",
+      "English"
+    ],
+    [
+      "76260",
+      "Introduction to Writing Fiction",
+      "F25",
+      "The Arts",
+      "DC",
+      "English"
+    ],
+    [
+      "76260",
+      "Introduction to Writing Fiction",
+      "F26",
+      "The Arts",
+      "DC",
+      "English"
+    ],
+    [
+      "76260",
+      "Introduction to Writing Fiction",
+      "M25",
+      "The Arts",
+      "DC",
+      "English"
+    ],
+    [
+      "76260",
+      "Introduction to Writing Fiction",
+      "M26",
+      "The Arts",
+      "DC",
+      "English"
+    ],
+    [
+      "76260",
+      "Introduction to Writing Fiction",
+      "S25",
+      "The Arts",
+      "DC",
+      "English"
+    ],
+    [
+      "76260",
+      "Introduction to Writing Fiction",
+      "S26",
+      "The Arts",
+      "DC",
+      "English"
+    ],
+    [
+      "76261",
+      "Intro to Writing Creative Nonfiction",
+      "S26",
+      "The Arts",
+      "DC",
+      "English"
+    ],
+    [
+      "76265",
+      "Introduction to Writing Poetry",
+      "F25",
+      "The Arts",
+      "DC",
+      "English"
+    ],
+    [
+      "76265",
+      "Introduction to Writing Poetry",
+      "F26",
+      "The Arts",
+      "DC",
+      "English"
+    ],
+    [
+      "76265",
+      "Introduction to Writing Poetry",
+      "M26",
+      "The Arts",
+      "DC",
+      "English"
+    ],
+    [
+      "76265",
+      "Introduction to Writing Poetry",
+      "S25",
+      "The Arts",
+      "DC",
+      "English"
+    ],
+    [
+      "76265",
+      "Introduction to Writing Poetry",
+      "S26",
+      "The Arts",
+      "DC",
+      "English"
+    ],
+    [
+      "76265",
+      "Introduction to Writing Poetry",
+      "F25",
+      "Additional Disciplines",
+      "DC",
+      "English GenEd Course List"
+    ],
+    [
+      "76265",
+      "Introduction to Writing Poetry",
+      "S26",
+      "The Arts",
+      "DC",
+      "English"
+    ],
+    [
+      "76270",
+      "Writing for the Professions",
+      "F25",
+      "Additional Disciplines",
+      "DC",
+      "English"
+    ],
+    [
+      "76270",
+      "Writing for the Professions",
+      "F26",
+      "Additional Disciplines",
+      "DC",
+      "English"
+    ],
+    [
+      "76270",
+      "Writing for the Professions",
+      "M25",
+      "Additional Disciplines",
+      "DC",
+      "English"
+    ],
+    [
+      "76270",
+      "Writing for the Professions",
+      "M26",
+      "Additional Disciplines",
+      "DC",
+      "English"
+    ],
+    [
+      "76270",
+      "Writing for the Professions",
+      "N25",
+      "Additional Disciplines",
+      "DC",
+      "English"
+    ],
+    [
+      "76270",
+      "Writing for the Professions",
+      "S25",
+      "Additional Disciplines",
+      "DC",
+      "English"
+    ],
+    [
+      "76270",
+      "Writing for the Professions",
+      "S26",
+      "Additional Disciplines",
+      "DC",
+      "English"
+    ],
+    [
+      "76314",
+      "Data Stories",
+      "F26",
+      "Computational Thinking",
+      "DC",
+      "English"
+    ],
+    [
+      "76327",
+      "Equity & Communication: Strategies for Institutional Change",
+      "S25",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "English"
+    ],
+    [
+      "76327",
+      "Equity & Communication: Strategies for Institutional Change",
+      "S26",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "English"
+    ],
+    [
+      "76388",
+      "Coding for Humanists",
+      "F25",
+      "Computational Thinking",
+      "DC",
+      "English"
+    ],
+    [
+      "76388",
+      "Coding for Humanists",
+      "F26",
+      "Computational Thinking",
+      "DC",
+      "English"
+    ],
+    [
+      "79112",
+      "Introduction to Asian American History",
+      "S26",
+      "Humanities",
+      "DC",
+      "History"
+    ],
+    [
+      "79116",
+      "Introduction to the Modern Middle East",
+      "F26",
+      "Humanities",
+      "DC",
+      "History"
+    ],
+    [
+      "79116",
+      "Introduction to the Modern Middle East",
+      "S26",
+      "Humanities",
+      "DC",
+      "History"
+    ],
+    [
+      "79120",
+      "Introduction to African American History: Black A..",
+      "F26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "History"
+    ],
+    [
+      "79145",
+      "Genocide and Weapons of Mass Destruction",
+      "F25",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "History"
+    ],
+    [
+      "79145",
+      "Genocide and Weapons of Mass Destruction",
+      "F26",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "History"
+    ],
+    [
+      "79153",
+      "Ancient Rome: How Often Should You Think About It?",
+      "F25",
+      "Contextual Thinking",
+      "DC",
+      "History"
+    ],
+    [
+      "79153",
+      "Ancient Rome: How Often Should You Think About It?",
+      "F26",
+      "Contextual Thinking",
+      "DC",
+      "History"
+    ],
+    [
+      "79160",
+      "Introduction to the History of Science",
+      "F26",
+      "Humanities",
+      "DC",
+      "History"
+    ],
+    [
+      "79160",
+      "Introduction to the History of Science",
+      "S26",
+      "Humanities",
+      "DC",
+      "History"
+    ],
+    [
+      "79175",
+      "Moneyball Nation: Data in American Life",
+      "F25",
+      "Logic/Mathematical Reasoning",
+      "DC",
+      "History"
+    ],
+    [
+      "79175",
+      "Moneyball Nation: Data in American Life",
+      "F26",
+      "Logic/Mathematical Reasoning",
+      "DC",
+      "History GenEd Course List"
+    ],
+    [
+      "79175",
+      "Moneyball Nation: Data in American Life",
+      "F25",
+      "Logic/Mathematical Reasoning",
+      "DC",
+      "History"
+    ],
+    [
+      "79175",
+      "Moneyball Nation: Data in American Life",
+      "F26",
+      "Logic/Mathematical Reasoning",
+      "DC",
+      "History"
+    ],
+    [
+      "79175",
+      "Moneyball Nation: Data in American Life",
+      "S26",
+      "Logic/Mathematical Reasoning",
+      "DC",
+      "History"
+    ],
+    [
+      "79189",
+      "Democracy and History: Thinking Beyond the Self",
+      "F26",
+      "Humanities",
+      "DC",
+      "History"
+    ],
+    [
+      "79201",
+      "Introduction to Anthropology",
+      "F25",
+      "Social Sciences",
+      "DC",
+      "History"
+    ],
+    [
+      "79201",
+      "Introduction to Anthropology",
+      "F26",
+      "Social Sciences",
+      "DC",
+      "History"
+    ],
+    [
+      "79201",
+      "Introduction to Anthropology",
+      "S25",
+      "Social Sciences",
+      "DC",
+      "History"
+    ],
+    [
+      "79201",
+      "Introduction to Anthropology",
+      "S26",
+      "Social Sciences",
+      "DC",
+      "History"
+    ],
+    [
+      "79211",
+      "Modern Southeast Asia: Colonialism, Capitalism, a..",
+      "F25",
+      "Contextual Thinking",
+      "DC",
+      "History"
+    ],
+    [
+      "79212",
+      "Jim Crow America",
+      "S26",
+      "Contextual Thinking",
+      "DC",
+      "History"
+    ],
+    [
+      "79215",
+      "Environmental Justice from Conservation to Climate Change",
+      "F25",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "History"
+    ],
+    [
+      "79215",
+      "Environmental Justice from Conservation to Climate Change",
+      "F26",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "History"
+    ],
+    [
+      "79220",
+      "Screening Mexico: Mexican Cinema, 1898 to Present",
+      "S25",
+      "Contextual Thinking",
+      "DC",
+      "History"
+    ],
+    [
+      "79220",
+      "Screening Mexico: Mexican Cinema, 1898 to Present",
+      "S26",
+      "Contextual Thinking",
+      "DC",
+      "History"
+    ],
+    [
+      "79223",
+      "Mexico: From the Aztec Empire to the Drug War",
+      "F25",
+      "Humanities",
+      "DC",
+      "History"
+    ],
+    [
+      "79226",
+      "African History: Earliest Times to 1780",
+      "S25",
+      "Humanities",
+      "DC",
+      "History"
+    ],
+    [
+      "79230",
+      "The Arab-Israeli Conflict and Peace Process Through 1948 to Present",
+      "F25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "History"
+    ],
+    [
+      "79230",
+      "The Arab-Israeli Conflict and Peace Process Through 1948 to Present",
+      "S25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "History"
+    ],
+    [
+      "79230",
+      "The Arab-Israeli Conflict and Peace Process Through 1948 to Present",
+      "S26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "History"
+    ],
+    [
+      "79234",
+      "Technology and Society",
+      "F25",
+      "Humanities",
+      "DC",
+      "History"
+    ],
+    [
+      "79234",
+      "Technology and Society",
+      "M26",
+      "Humanities",
+      "DC",
+      "History"
+    ],
+    [
+      "79234",
+      "Technology and Society",
+      "S25",
+      "Humanities",
+      "DC",
+      "History"
+    ],
+    [
+      "79234",
+      "Technology and Society",
+      "S26",
+      "Humanities",
+      "DC",
+      "History"
+    ],
+    [
+      "79239",
+      "Theories of Nationalism",
+      "F25",
+      "Contextual Thinking",
+      "DC",
+      "History"
+    ],
+    [
+      "79239",
+      "Theories of Nationalism",
+      "F26",
+      "Contextual Thinking",
+      "DC",
+      "History GenEd Course List"
+    ],
+    [
+      "79239",
+      "Theories of Nationalism",
+      "F25",
+      "Contextual Thinking",
+      "DC",
+      "History"
+    ],
+    [
+      "79239",
+      "Theories of Nationalism",
+      "F26",
+      "Contextual Thinking",
+      "DC",
+      "History"
+    ],
+    [
+      "79241",
+      "The Holocaust:  What You Should Know and Why",
+      "S26",
+      "Humanities",
+      "DC",
+      "History"
+    ],
+    [
+      "79245",
+      "Capitalism and Individualism in American Culture",
+      "F25",
+      "Humanities",
+      "DC",
+      "History"
+    ],
+    [
+      "79245",
+      "Capitalism and Individualism in American Culture",
+      "F26",
+      "Humanities",
+      "DC",
+      "History"
+    ],
+    [
+      "79248",
+      "U.S. Constitution & the Presidency",
+      "F25",
+      "Contextual Thinking",
+      "DC",
+      "History"
+    ],
+    [
+      "79248",
+      "U.S. Constitution & the Presidency",
+      "F26",
+      "Contextual Thinking",
+      "DC",
+      "History"
+    ],
+    [
+      "79254",
+      "A Global History of Crime and Punishment",
+      "S26",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "History"
+    ],
+    [
+      "79260",
+      "Nazi Germany: A Practical History",
+      "F25",
+      "Contextual Thinking",
+      "DC",
+      "History"
+    ],
+    [
+      "79261",
+      "The Last Emperors: Chinese History and Socie..",
+      "F25",
+      "Humanities",
+      "DC",
+      "History"
+    ],
+    [
+      "79262",
+      "Modern China: From the Birth of Mao ... to Now",
+      "S25",
+      "Contextual Thinking",
+      "DC",
+      "History"
+    ],
+    [
+      "79262",
+      "Modern China: From the Birth of Mao ... to Now",
+      "S26",
+      "Contextual Thinking",
+      "DC",
+      "History"
+    ],
+    [
+      "79265",
+      "Russian History: Game of Thrones",
+      "F25",
+      "Contextual Thinking",
+      "DC",
+      "History"
+    ],
+    [
+      "79266",
+      "Russian History and Revolutionary Socialism",
+      "S25",
+      "Humanities",
+      "DC",
+      "History"
+    ],
+    [
+      "79266",
+      "Russian History and Revolutionary Socialism",
+      "S26",
+      "Humanities",
+      "DC",
+      "History"
+    ],
+    [
+      "79269",
+      "Russian History: From Socialism to Capitalism",
+      "F26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "History"
+    ],
+    [
+      "79270",
+      "Anti-Semitism Then and Now: Perspectives from the Middle Ages to the Present",
+      "F25",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "History"
+    ],
+    [
+      "79270",
+      "Anti-Semitism Then and Now: Perspectives from the Middle Ages to the Present",
+      "F26",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "History"
+    ],
+    [
+      "79270",
+      "Anti-Semitism Then and Now: Perspectives from the Middle Ages to the Present",
+      "S25",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "History"
+    ],
+    [
+      "79272",
+      "Coexistence and Conflict: Muslims, Christians and Jews in Spain and Portugal",
+      "F26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "History"
+    ],
+    [
+      "79272",
+      "Coexistence and Conflict: Muslims, Christians and Jews in Spain and Portugal",
+      "S25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "History"
+    ],
+    [
+      "79273",
+      "Jews & Arabs: From the Time of Muhammad to th..",
+      "S26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "History"
+    ],
+    [
+      "79275",
+      "Introduction to Global Studies",
+      "F25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "History"
+    ],
+    [
+      "79275",
+      "Introduction to Global Studies",
+      "F26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "History"
+    ],
+    [
+      "79275",
+      "Introduction to Global Studies",
+      "S25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "History GenEd Course List"
+    ],
+    [
+      "79275",
+      "Introduction to Global Studies",
+      "F26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "History"
+    ],
+    [
+      "79275",
+      "Introduction to Global Studies",
+      "S25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "History"
+    ],
+    [
+      "79275",
+      "Introduction to Global Studies",
+      "S26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "History"
+    ],
+    [
+      "79283",
+      "Anthropology of Energy",
+      "S26",
+      "Contextual Thinking",
+      "DC",
+      "History"
+    ],
+    [
+      "79288",
+      "Bananas, Baseball, and Borders: Latin America and the United States",
+      "S25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "History"
+    ],
+    [
+      "79288",
+      "Bananas, Baseball, and Borders: Latin America and the United States",
+      "S26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "History"
+    ],
+    [
+      "79290",
+      "The Slave Passage: From West Africa to the Americ..",
+      "F25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "History"
+    ],
+    [
+      "79292",
+      "China and the West",
+      "F26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "History"
+    ],
+    [
+      "79297",
+      "Technology and Work",
+      "S25",
+      "Contextual Thinking",
+      "DC",
+      "History"
+    ],
+    [
+      "79297",
+      "Technology and Work",
+      "S26",
+      "Contextual Thinking",
+      "DC",
+      "History"
+    ],
+    [
+      "79300",
+      "Controversial Topics in the History of American Publi..",
+      "F25",
+      "Contextual Thinking",
+      "DC",
+      "History History of U.S. Immigration Policy"
+    ],
+    [
+      "79300",
+      "Controversial Topics in the History of American Publi..",
+      "F26",
+      "Contextual Thinking",
+      "DC",
+      "History"
+    ],
+    [
+      "79304",
+      "History of Eugenics and Scientific Racism",
+      "S25",
+      "Scientific Inquiry",
+      "DC",
+      "History"
+    ],
+    [
+      "79314",
+      "How Do We Remember? The Politics and Cultures ..",
+      "F25",
+      "Contextual Thinking",
+      "DC",
+      "History"
+    ],
+    [
+      "79317",
+      "Art, Anthropology, and Empire",
+      "F25",
+      "The Arts",
+      "DC",
+      "History"
+    ],
+    [
+      "79345",
+      "Roots of Rock & Roll",
+      "S25",
+      "The Arts",
+      "DC",
+      "History"
+    ],
+    [
+      "79345",
+      "Roots of Rock & Roll",
+      "S26",
+      "The Arts",
+      "DC",
+      "History"
+    ],
+    [
+      "79349",
+      "The Holocaust in History and Culture",
+      "S25",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "History"
+    ],
+    [
+      "79360",
+      "Crime, Policing, and the Law: Historical and Conte..",
+      "F25",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "History"
+    ],
+    [
+      "79380",
+      "Hostile Environments: The Politics of Pollution in Global Perspective",
+      "S25",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "History"
+    ],
+    [
+      "79380",
+      "Hostile Environments: The Politics of Pollution in Global Perspective",
+      "S26",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "History"
+    ],
+    [
+      "79387",
+      "Battle Ground of Ideologies: The Spanish Ci..",
+      "S26",
+      "Contextual Thinking",
+      "DC",
+      "History"
+    ],
+    [
+      "80100",
+      "Introduction to Philosophy",
+      "F25",
+      "Humanities",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80100",
+      "Introduction to Philosophy",
+      "F26",
+      "Humanities",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80100",
+      "Introduction to Philosophy",
+      "M25",
+      "Humanities",
+      "DC",
+      "Philosophy GenEd Course List"
+    ],
+    [
+      "80100",
+      "Introduction to Philosophy",
+      "F26",
+      "Humanities",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80100",
+      "Introduction to Philosophy",
+      "M25",
+      "Humanities",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80100",
+      "Introduction to Philosophy",
+      "M26",
+      "Humanities",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80100",
+      "Introduction to Philosophy",
+      "N25",
+      "Humanities",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80100",
+      "Introduction to Philosophy",
+      "S25",
+      "Humanities",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80100",
+      "Introduction to Philosophy",
+      "S26",
+      "Humanities",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80101",
+      "Dangerous Ideas in Science and Society",
+      "F26",
+      "Humanities",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80130",
+      "Introduction to Ethics",
+      "F25",
+      "Humanities",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80130",
+      "Introduction to Ethics",
+      "F26",
+      "Humanities",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80130",
+      "Introduction to Ethics",
+      "M26",
+      "Humanities",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80130",
+      "Introduction to Ethics",
+      "N25",
+      "Humanities",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80150",
+      "Nature of Reason",
+      "F26",
+      "Logic/Mathematical Reasoning",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80150",
+      "Nature of Reason",
+      "M25",
+      "Logic/Mathematical Reasoning",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80150",
+      "Nature of Reason",
+      "M26",
+      "Logic/Mathematical Reasoning",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80150",
+      "Nature of Reason",
+      "S25",
+      "Logic/Mathematical Reasoning",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80150",
+      "Nature of Reason",
+      "S26",
+      "Logic/Mathematical Reasoning",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80180",
+      "Introduction to Linguistics",
+      "F25",
+      "Humanities",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80180",
+      "Introduction to Linguistics",
+      "F26",
+      "Humanities",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80180",
+      "Introduction to Linguistics",
+      "S26",
+      "Humanities",
+      "DC",
+      "Philosophy Nature of Language: An Introduction to Linguistics"
+    ],
+    [
+      "80180",
+      "Introduction to Linguistics",
+      "S25",
+      "Humanities",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80210",
+      "Logic and Proofs",
+      "F25",
+      "Logic/Mathematical Reasoning",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80210",
+      "Logic and Proofs",
+      "F26",
+      "Logic/Mathematical Reasoning",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80210",
+      "Logic and Proofs",
+      "M25",
+      "Logic/Mathematical Reasoning",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80210",
+      "Logic and Proofs",
+      "M26",
+      "Logic/Mathematical Reasoning",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80210",
+      "Logic and Proofs",
+      "S25",
+      "Logic/Mathematical Reasoning",
+      "DC",
+      "Philosophy GenEd Course List"
+    ],
+    [
+      "80210",
+      "Logic and Proofs",
+      "M26",
+      "Logic/Mathematical Reasoning",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80210",
+      "Logic and Proofs",
+      "S25",
+      "Logic/Mathematical Reasoning",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80210",
+      "Logic and Proofs",
+      "S26",
+      "Logic/Mathematical Reasoning",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80211",
+      "Logic and Mathematical Inquiry",
+      "F26",
+      "Logic/Mathematical Reasoning",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80221",
+      "Philosophy of Social Science",
+      "F26",
+      "Scientific Inquiry",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80221",
+      "Philosophy of Social Science",
+      "S25",
+      "Scientific Inquiry",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80221",
+      "Philosophy of Social Science",
+      "S26",
+      "Scientific Inquiry",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80226",
+      "The Nature of Scientific Revolutions",
+      "F26",
+      "Scientific Inquiry",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80226",
+      "The Nature of Scientific Revolutions",
+      "S26",
+      "Scientific Inquiry",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80234",
+      "Philosophy of Race and Gender",
+      "S26",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80245",
+      "Medical Ethics",
+      "S25",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80245",
+      "Medical Ethics",
+      "S26",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80287",
+      "Language Variation and Change",
+      "F25",
+      "Social Sciences",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80306",
+      "Decision Theory",
+      "S25",
+      "Logic/Mathematical Reasoning",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80306",
+      "Decision Theory",
+      "S26",
+      "Logic/Mathematical Reasoning",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80312",
+      "Mathematical Revolutions",
+      "S26",
+      "Logic/Mathematical Reasoning",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80324",
+      "Philosophy of Economics",
+      "F25",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80325",
+      "Foundations of Causation and Machine Learning",
+      "F25",
+      "Computational Thinking",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80325",
+      "Foundations of Causation and Machine Learning",
+      "F26",
+      "Computational Thinking",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80330",
+      "Ethical Theory",
+      "S25",
+      "Contextual Thinking",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80330",
+      "Ethical Theory",
+      "S26",
+      "Contextual Thinking",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80335",
+      "Social and Political Philosophy",
+      "F25",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80335",
+      "Social and Political Philosophy",
+      "F26",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80348",
+      "Health, Human Rights, and International Development",
+      "F26",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "80348",
+      "Health, Human Rights, and International Development",
+      "F26",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics GenEd Course List"
+    ],
+    [
+      "80348",
+      "Health, Human Rights, and International Development",
+      "F26",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "Philosophy"
+    ],
+    [
+      "82110",
+      "Arabic Calligraphy: Crafting Letters, Bridging People Then and Now",
+      "F26",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82110",
+      "Arabic Calligraphy: Crafting Letters, Bridging People Then and Now",
+      "M26",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82119",
+      "Arabic Calligraphy Culture & Skills",
+      "F25",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82119",
+      "Arabic Calligraphy Culture & Skills",
+      "F26",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82119",
+      "Arabic Calligraphy Culture & Skills",
+      "M25",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82119",
+      "Arabic Calligraphy Culture & Skills",
+      "M26",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82119",
+      "Arabic Calligraphy Culture & Skills",
+      "N25",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82119",
+      "Arabic Calligraphy Culture & Skills",
+      "S25",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82119",
+      "Arabic Calligraphy Culture & Skills",
+      "S26",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82130",
+      "Story + Game Lab: Oracle Bones & China's Earliest ..",
+      "S25",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82137",
+      "Chinese Calligraphy: Culture and Skills",
+      "F25",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82137",
+      "Chinese Calligraphy: Culture and Skills",
+      "F26",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82137",
+      "Chinese Calligraphy: Culture and Skills",
+      "M26",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82137",
+      "Chinese Calligraphy: Culture and Skills",
+      "S25",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82137",
+      "Chinese Calligraphy: Culture and Skills",
+      "S26",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82179",
+      "Multicultural Japan",
+      "S25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82180",
+      "East Asian Art: Culture and Digital Creation",
+      "F26",
+      "Contextual Thinking",
+      "DC",
+      "Languages Cultures & Appl Linguistics The Arts DC Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82180",
+      "East Asian Art: Culture and Digital Creation",
+      "M26",
+      "Contextual Thinking",
+      "DC",
+      "Languages Cultures & Appl Linguistics The Arts DC Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82184",
+      "Linguistic and Cultural Equity: Theories and Prac..",
+      "F25",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "Languages Cultures & Appl Linguistics Working Towards Linguistic and Cultural Eq.."
+    ],
+    [
+      "82184",
+      "Linguistic and Cultural Equity: Theories and Prac..",
+      "S25",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82185",
+      "Global Food Cultures",
+      "F25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82185",
+      "Global Food Cultures",
+      "F26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics GenEd Course List"
+    ],
+    [
+      "82185",
+      "Global Food Cultures",
+      "F25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82185",
+      "Global Food Cultures",
+      "F26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82186",
+      "Sex and Romance in Study Abroad",
+      "F25",
+      "Contextual Thinking",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82188",
+      "Global Science Fiction",
+      "S26",
+      "Contextual Thinking",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82202",
+      "Intermediate French II",
+      "F26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82202",
+      "Intermediate French II",
+      "S25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82202",
+      "Intermediate French II",
+      "S26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82209",
+      "Contemporary French Cinema",
+      "F25",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82209",
+      "Contemporary French Cinema",
+      "F26",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82212",
+      "Intermediate Arabic II",
+      "S25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82212",
+      "Intermediate Arabic II",
+      "S26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82222",
+      "Intermediate German II",
+      "F25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82222",
+      "Intermediate German II",
+      "F26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82222",
+      "Intermediate German II",
+      "S25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82222",
+      "Intermediate German II",
+      "S26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82224",
+      "The Holocaust in History & Culture",
+      "S25",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82225",
+      "Multiculturalism, Ethnic Diversity, and Debates ab..",
+      "F26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82232",
+      "Intermediate Chinese II",
+      "F25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82232",
+      "Intermediate Chinese II",
+      "F26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82232",
+      "Intermediate Chinese II",
+      "S25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82234",
+      "Environment and Society in Modern Chinese Literatur..",
+      "S25",
+      "Contextual Thinking",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82235",
+      "Fables, Legends and Stories from Ancient Chin..",
+      "S26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82242",
+      "Intermediate Spanish II",
+      "F25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82242",
+      "Intermediate Spanish II",
+      "F26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82242",
+      "Intermediate Spanish II",
+      "S25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics GenEd Course List"
+    ],
+    [
+      "82242",
+      "Intermediate Spanish II",
+      "F26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82242",
+      "Intermediate Spanish II",
+      "S25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82242",
+      "Intermediate Spanish II",
+      "S26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82250",
+      "Digital Realities: An Introduction to Immersiv..",
+      "F26",
+      "Additional Disciplines",
+      "DC",
+      "Languages Cultures & Appl Linguistics Digital Realities: Introducing Immersive Te.."
+    ],
+    [
+      "82250",
+      "Digital Realities: An Introduction to Immersiv..",
+      "F25",
+      "Additional Disciplines",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82252",
+      "Intermediate Korean 2",
+      "S25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82253",
+      "Korean Society through Film and Literature",
+      "S25",
+      "Contextual Thinking",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82253",
+      "Korean Society through Film and Literature",
+      "S26",
+      "Contextual Thinking",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82255",
+      "Beyond the Korean Wave: A Critical Exploration of K-pop",
+      "F25",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82255",
+      "Beyond the Korean Wave: A Critical Exploration of K-pop",
+      "F26",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82260",
+      "Black Italy",
+      "S25",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82260",
+      "Black Italy",
+      "S26",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82262",
+      "Intermediate Italian II",
+      "S26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82268",
+      "Introduction to Italian Film",
+      "F25",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82268",
+      "Introduction to Italian Film",
+      "F26",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82268",
+      "Introduction to Italian Film",
+      "S26",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82270",
+      "Technology in Japanese Culture and Society",
+      "F25",
+      "Contextual Thinking",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82270",
+      "Technology in Japanese Culture and Society",
+      "F26",
+      "Contextual Thinking",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82272",
+      "Intermediate Japanese II",
+      "M26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82272",
+      "Intermediate Japanese II",
+      "N25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82272",
+      "Intermediate Japanese II",
+      "S26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82273",
+      "Introduction to Japanese Language and Culture",
+      "F25",
+      "Contextual Thinking",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82273",
+      "Introduction to Japanese Language and Culture",
+      "S25",
+      "Contextual Thinking",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82273",
+      "Introduction to Japanese Language and Culture",
+      "S26",
+      "Contextual Thinking",
+      "DC",
+      "Languages Cultures & Appl Linguistics Japanese Culture and Society"
+    ],
+    [
+      "82273",
+      "Introduction to Japanese Language and Culture",
+      "F26",
+      "Contextual Thinking",
+      "DC",
+      "Languages Cultures & Appl Linguistics GenEd Course List"
+    ],
+    [
+      "82273",
+      "Introduction to Japanese Language and Culture",
+      "S26",
+      "Contextual Thinking",
+      "DC",
+      "Languages Cultures & Appl Linguistics Japanese Culture and Society"
+    ],
+    [
+      "82273",
+      "Introduction to Japanese Language and Culture",
+      "F26",
+      "Contextual Thinking",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82277",
+      "Otaku and Japanese Pop Culture: From Stigma to Creativity",
+      "F26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82277",
+      "Otaku and Japanese Pop Culture: From Stigma to Creativity",
+      "M26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82278",
+      "Japanese Film and Literature: The Art of Storytelling",
+      "F25",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82278",
+      "Japanese Film and Literature: The Art of Storytelling",
+      "F26",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82278",
+      "Japanese Film and Literature: The Art of Storytelling",
+      "M25",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82278",
+      "Japanese Film and Literature: The Art of Storytelling",
+      "M26",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82278",
+      "Japanese Film and Literature: The Art of Storytelling",
+      "N25",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82278",
+      "Japanese Film and Literature: The Art of Storytelling",
+      "S25",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82278",
+      "Japanese Film and Literature: The Art of Storytelling",
+      "S26",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82279",
+      "Anime - Visual Interplay between Japan and the World",
+      "F25",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82279",
+      "Anime - Visual Interplay between Japan and the World",
+      "F26",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82279",
+      "Anime - Visual Interplay between Japan and the World",
+      "M25",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82279",
+      "Anime - Visual Interplay between Japan and the World",
+      "M26",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82279",
+      "Anime - Visual Interplay between Japan and the World",
+      "N25",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82279",
+      "Anime - Visual Interplay between Japan and the World",
+      "S25",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82279",
+      "Anime - Visual Interplay between Japan and the World",
+      "S26",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82280",
+      "Bilingual & Bicultural Experiences in the US",
+      "S26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics Billingual & Bicultural Experiences in the US"
+    ],
+    [
+      "82280",
+      "Bilingual & Bicultural Experiences in the US",
+      "S25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82282",
+      "Interpreting Global Texts & Cultures",
+      "F25",
+      "Humanities",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82282",
+      "Interpreting Global Texts & Cultures",
+      "F26",
+      "Humanities",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82282",
+      "Interpreting Global Texts & Cultures",
+      "S25",
+      "Humanities",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82282",
+      "Interpreting Global Texts & Cultures",
+      "S26",
+      "Humanities",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82282",
+      "Interpreting Global Texts & Cultures",
+      "F25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics GenEd Course List"
+    ],
+    [
+      "82282",
+      "Interpreting Global Texts & Cultures",
+      "S26",
+      "Humanities",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82283",
+      "Language Diversity & Cultural Identity",
+      "F25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82283",
+      "Language Diversity & Cultural Identity",
+      "F26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82283",
+      "Language Diversity & Cultural Identity",
+      "M25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82283",
+      "Language Diversity & Cultural Identity",
+      "M26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82283",
+      "Language Diversity & Cultural Identity",
+      "N25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82283",
+      "Language Diversity & Cultural Identity",
+      "S25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82283",
+      "Language Diversity & Cultural Identity",
+      "S26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82285",
+      "Podcasting: Language and Culture Through Storytelling",
+      "F25",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82285",
+      "Podcasting: Language and Culture Through Storytelling",
+      "F26",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82292",
+      "Intermediate Russian II",
+      "S26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82294",
+      "19th Century Russian Masterpieces",
+      "F26",
+      "Contextual Thinking",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82294",
+      "19th Century Russian Masterpieces",
+      "S26",
+      "Contextual Thinking",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82295",
+      "20th Century Russian Masterpieces",
+      "M25",
+      "Contextual Thinking",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82295",
+      "20th Century Russian Masterpieces",
+      "S25",
+      "Contextual Thinking",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82295",
+      "20th Century Russian Masterpieces",
+      "S26",
+      "Contextual Thinking",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82297",
+      "Russian and Soviet Science Fiction",
+      "S25",
+      "Contextual Thinking",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82303",
+      "French & Francophone Cultures",
+      "F25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82303",
+      "French & Francophone Cultures",
+      "S25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82303",
+      "French & Francophone Cultures",
+      "S26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics Global French Cultures"
+    ],
+    [
+      "82303",
+      "French & Francophone Cultures",
+      "F26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82303",
+      "French & Francophone Cultures",
+      "M26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82304",
+      "French & Francophone Sociolinguistics",
+      "F25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82304",
+      "French & Francophone Sociolinguistics",
+      "S25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82304",
+      "French & Francophone Sociolinguistics",
+      "S26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics GenEd Course List"
+    ],
+    [
+      "82304",
+      "French & Francophone Sociolinguistics",
+      "S25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82304",
+      "French & Francophone Sociolinguistics",
+      "S26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics Global French Sociolinguistics"
+    ],
+    [
+      "82304",
+      "French & Francophone Sociolinguistics",
+      "F26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82311",
+      "Advanced Arabic I",
+      "F25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82311",
+      "Advanced Arabic I",
+      "F26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82311",
+      "Advanced Arabic I",
+      "S25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82312",
+      "Advanced Arabic II",
+      "S26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82320",
+      "Contemporary Society in Germany, Austria and Switzerland",
+      "F25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82320",
+      "Contemporary Society in Germany, Austria and Switzerland",
+      "F26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82323",
+      "Germany, Austria and Switzerland in the 20th Century",
+      "S25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82323",
+      "Germany, Austria and Switzerland in the 20th Century",
+      "S26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82331",
+      "Advanced Chinese I: Population, Youth, Marria..",
+      "F26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics Reading Into a New China I: Population, Youth, Marria.."
+    ],
+    [
+      "82331",
+      "Advanced Chinese I: Population, Youth, Marria..",
+      "F25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82332",
+      "Reading Into a New China II: Transportation, Education, Pop Culture, & Health",
+      "S25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82332",
+      "Reading Into a New China II: Transportation, Education, Pop Culture, & Health",
+      "S26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82342",
+      "Cultures of Spain",
+      "S25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82342",
+      "Cultures of Spain",
+      "S26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82343",
+      "Cultures of Latin America",
+      "S25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82343",
+      "Cultures of Latin America",
+      "S26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82344",
+      "U.S. Latine Cultures",
+      "F25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82344",
+      "U.S. Latine Cultures",
+      "F26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82345",
+      "Using Spanish in Social Contexts",
+      "F25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82345",
+      "Using Spanish in Social Contexts",
+      "F26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82371",
+      "Advanced Japanese I: An Exploration of Critical Global Topics",
+      "F25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82371",
+      "Advanced Japanese I: An Exploration of Critical Global Topics",
+      "F26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics GenEd Course List"
+    ],
+    [
+      "82371",
+      "Advanced Japanese I: An Exploration of Critical Global Topics",
+      "F25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82371",
+      "Advanced Japanese I: An Exploration of Critical Global Topics",
+      "F26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82372",
+      "Advanced Japanese 2: An Exploration of Critical Global Topics",
+      "S25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82372",
+      "Advanced Japanese 2: An Exploration of Critical Global Topics",
+      "S26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "82380",
+      "Podcasting in Spanish: Unlocking Cultural Storyt..",
+      "F26",
+      "The Arts",
+      "DC",
+      "Languages Cultures & Appl Linguistics"
+    ],
+    [
+      "84101",
+      "Introduction to Political Science",
+      "F25",
+      "Social Sciences",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84101",
+      "Introduction to Political Science",
+      "F26",
+      "Social Sciences",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84104",
+      "Decision Processes in American Political Institutions",
+      "F25",
+      "Social Sciences",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84104",
+      "Decision Processes in American Political Institutions",
+      "F26",
+      "Social Sciences",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84120",
+      "Introduction to US Constitutional Law",
+      "S25",
+      "Humanities",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84120",
+      "Introduction to US Constitutional Law",
+      "S26",
+      "Humanities",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84226",
+      "International Relations",
+      "S26",
+      "Social Sciences",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84266",
+      "Research Design for Political Science",
+      "F25",
+      "Scientific Inquiry",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84266",
+      "Research Design for Political Science",
+      "F26",
+      "Scientific Inquiry",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84275",
+      "Comparative Politics",
+      "S25",
+      "Social Sciences",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84275",
+      "Comparative Politics",
+      "S26",
+      "Social Sciences",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84306",
+      "Latin American Politics",
+      "S25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84306",
+      "Latin American Politics",
+      "S26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84309",
+      "American Political Divides and Great Debates",
+      "F25",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84309",
+      "American Political Divides and Great Debates",
+      "F26",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84319",
+      "Civil-Military Relations",
+      "S25",
+      "Contextual Thinking",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84319",
+      "Civil-Military Relations",
+      "S26",
+      "Contextual Thinking",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84322",
+      "Nonviolent Conflict and Revolution",
+      "S25",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84322",
+      "Nonviolent Conflict and Revolution",
+      "S26",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84322",
+      "Nonviolent Conflict and Revolution",
+      "S25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "CM Institute for Strategy and Tech GenEd Course List"
+    ],
+    [
+      "84322",
+      "Nonviolent Conflict and Revolution",
+      "S26",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84323",
+      "War and Peace in the Contemporary Middle East",
+      "S25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84323",
+      "War and Peace in the Contemporary Middle East",
+      "S26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84325",
+      "Contemporary American Foreign Policy",
+      "S25",
+      "Contextual Thinking",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84325",
+      "Contemporary American Foreign Policy",
+      "S26",
+      "Contextual Thinking",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84328",
+      "Military Strategy and Doctrine",
+      "F25",
+      "Contextual Thinking",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84328",
+      "Military Strategy and Doctrine",
+      "F26",
+      "Contextual Thinking",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84350",
+      "A Strategist's Introduction to Artificial Intelligence",
+      "S26",
+      "Computational Thinking",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84352",
+      "Representation and Voting Rights",
+      "S25",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84352",
+      "Representation and Voting Rights",
+      "S26",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84355",
+      "Democracy's Data: Analytics and Insights into American Elections",
+      "F25",
+      "Contextual Thinking",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84355",
+      "Democracy's Data: Analytics and Insights into American Elections",
+      "F26",
+      "Contextual Thinking",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84358",
+      "Money, Connections, and Power: Interests and Influ..",
+      "F26",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84362",
+      "Diplomacy and Statecraft",
+      "F25",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84362",
+      "Diplomacy and Statecraft",
+      "F26",
+      "Intercultural and Global Inquiry",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84365",
+      "The Politics of Fake News and Misinformation",
+      "S25",
+      "Contextual Thinking",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84365",
+      "The Politics of Fake News and Misinformation",
+      "S26",
+      "Contextual Thinking",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84366",
+      "The 21st-Century Presidency: Expanding Po..",
+      "S26",
+      "Contextual Thinking",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84367",
+      "The Politics of Antisemitism",
+      "F25",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84368",
+      "Technology Ethics",
+      "S26",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84375",
+      "Geopolitics of Innovation",
+      "F25",
+      "Contextual Thinking",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84375",
+      "Geopolitics of Innovation",
+      "F26",
+      "Contextual Thinking",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84380",
+      "US Grand Strategy",
+      "F25",
+      "Contextual Thinking",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84380",
+      "US Grand Strategy",
+      "F26",
+      "Contextual Thinking",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84380",
+      "US Grand Strategy",
+      "S25",
+      "Contextual Thinking",
+      "DC",
+      "CM Institute for Strategy and Tech GenEd Course List"
+    ],
+    [
+      "84380",
+      "US Grand Strategy",
+      "F26",
+      "Contextual Thinking",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84387",
+      "Remote Systems and the Cyber Domain in Conflict",
+      "S25",
+      "Contextual Thinking",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84387",
+      "Remote Systems and the Cyber Domain in Conflict",
+      "S26",
+      "Contextual Thinking",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84389",
+      "Terrorism and Insurgency",
+      "S25",
+      "Contextual Thinking",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84389",
+      "Terrorism and Insurgency",
+      "S26",
+      "Contextual Thinking",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84393",
+      "The US Congress: Legislative Progress or Paralysis?",
+      "F25",
+      "Contextual Thinking",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "84393",
+      "The US Congress: Legislative Progress or Paralysis?",
+      "F26",
+      "Contextual Thinking",
+      "DC",
+      "CM Institute for Strategy and Tech"
+    ],
+    [
+      "85100",
+      "Introduction to Psychology",
+      "F25",
+      "Social Sciences",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85100",
+      "Introduction to Psychology",
+      "F26",
+      "Social Sciences",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85100",
+      "Introduction to Psychology",
+      "S26",
+      "Social Sciences",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85102",
+      "Introduction to Psychology",
+      "S25",
+      "Social Sciences",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85105",
+      "Hack Your Life",
+      "F25",
+      "Scientific Inquiry",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85105",
+      "Hack Your Life",
+      "F26",
+      "Scientific Inquiry",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85106",
+      "Animal Minds",
+      "S25",
+      "Scientific Inquiry",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85106",
+      "Animal Minds",
+      "S26",
+      "Scientific Inquiry",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85107",
+      "The Psychology of Video Games",
+      "F25",
+      "Additional Disciplines",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85107",
+      "The Psychology of Video Games",
+      "S25",
+      "Additional Disciplines",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85110",
+      "Cognitive Psychology",
+      "F25",
+      "Social Sciences",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85110",
+      "Cognitive Psychology",
+      "F26",
+      "Social Sciences",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85110",
+      "Cognitive Psychology",
+      "S26",
+      "Social Sciences",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85130",
+      "Developmental Psychology",
+      "F25",
+      "Contextual Thinking",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85130",
+      "Developmental Psychology",
+      "F26",
+      "Contextual Thinking",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85130",
+      "Developmental Psychology",
+      "S26",
+      "Contextual Thinking",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85150",
+      "Social Psychology",
+      "F25",
+      "Contextual Thinking",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85150",
+      "Social Psychology",
+      "F26",
+      "Contextual Thinking",
+      "DC",
+      "Psychology GenEd Course List"
+    ],
+    [
+      "85150",
+      "Social Psychology",
+      "F25",
+      "Contextual Thinking",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85150",
+      "Social Psychology",
+      "F26",
+      "Contextual Thinking",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85150",
+      "Social Psychology",
+      "M26",
+      "Contextual Thinking",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85150",
+      "Social Psychology",
+      "S26",
+      "Contextual Thinking",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85170",
+      "Foundations of Brain and Behavior",
+      "F25",
+      "Scientific Inquiry",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85170",
+      "Foundations of Brain and Behavior",
+      "F26",
+      "Scientific Inquiry",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85170",
+      "Foundations of Brain and Behavior",
+      "S26",
+      "Scientific Inquiry",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85190",
+      "Psychopathology",
+      "F25",
+      "Social Sciences",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85190",
+      "Psychopathology",
+      "F26",
+      "Social Sciences",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85211",
+      "Cognitive Psychology",
+      "S25",
+      "Social Sciences",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85219",
+      "Foundations of Brain and Behavior",
+      "S25",
+      "Scientific Inquiry",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85221",
+      "Principles of Child Development",
+      "S25",
+      "Contextual Thinking",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85241",
+      "Social Psychology",
+      "S25",
+      "Contextual Thinking",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85411",
+      "Introduction to Music Cognition Research",
+      "F26",
+      "Scientific Inquiry",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85450",
+      "Psychology of Prejudice",
+      "F25",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85450",
+      "Psychology of Prejudice",
+      "F26",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "85450",
+      "Psychology of Prejudice",
+      "M26",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "Psychology"
+    ],
+    [
+      "88120",
+      "Reason, Passion and Cognition",
+      "F25",
+      "Social Sciences",
+      "DC",
+      "Social & Decision Sciences"
+    ],
+    [
+      "88120",
+      "Reason, Passion and Cognition",
+      "F26",
+      "Social Sciences",
+      "DC",
+      "Social & Decision Sciences"
+    ],
+    [
+      "88120",
+      "Reason, Passion and Cognition",
+      "S25",
+      "Social Sciences",
+      "DC",
+      "Social & Decision Sciences"
+    ],
+    [
+      "88120",
+      "Reason, Passion and Cognition",
+      "S26",
+      "Social Sciences",
+      "DC",
+      "Social & Decision Sciences"
+    ],
+    [
+      "88130",
+      "Behavioral Economics for Life",
+      "F25",
+      "Scientific Inquiry",
+      "DC",
+      "Social & Decision Sciences"
+    ],
+    [
+      "88130",
+      "Behavioral Economics for Life",
+      "F26",
+      "Scientific Inquiry",
+      "DC",
+      "Social & Decision Sciences"
+    ],
+    [
+      "88150",
+      "Managing Decisions",
+      "F25",
+      "Additional Disciplines",
+      "DC",
+      "Social & Decision Sciences"
+    ],
+    [
+      "88150",
+      "Managing Decisions",
+      "F26",
+      "Additional Disciplines",
+      "DC",
+      "Social & Decision Sciences GenEd Course List"
+    ],
+    [
+      "88150",
+      "Managing Decisions",
+      "F25",
+      "Additional Disciplines",
+      "DC",
+      "Social & Decision Sciences"
+    ],
+    [
+      "88150",
+      "Managing Decisions",
+      "F26",
+      "Additional Disciplines",
+      "DC",
+      "Social & Decision Sciences"
+    ],
+    [
+      "88221",
+      "Markets, Democracy, and Public Policy",
+      "S25",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "Social & Decision Sciences"
+    ],
+    [
+      "88221",
+      "Markets, Democracy, and Public Policy",
+      "S26",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "Social & Decision Sciences"
+    ],
+    [
+      "88223",
+      "Decision Analysis",
+      "S25",
+      "Additional Disciplines",
+      "DC",
+      "Social & Decision Sciences"
+    ],
+    [
+      "88223",
+      "Decision Analysis",
+      "S26",
+      "Additional Disciplines",
+      "DC",
+      "Social & Decision Sciences"
+    ],
+    [
+      "88230",
+      "Human Intelligence and Human Stupidity",
+      "F25",
+      "Social Sciences",
+      "DC",
+      "Social & Decision Sciences"
+    ],
+    [
+      "88230",
+      "Human Intelligence and Human Stupidity",
+      "F26",
+      "Social Sciences",
+      "DC",
+      "Social & Decision Sciences"
+    ],
+    [
+      "88234",
+      "Negotiation: International Focus",
+      "S25",
+      "Contextual Thinking",
+      "DC",
+      "Social & Decision Sciences"
+    ],
+    [
+      "88234",
+      "Negotiation: International Focus",
+      "S26",
+      "Contextual Thinking",
+      "DC",
+      "Social & Decision Sciences"
+    ],
+    [
+      "88235",
+      "Negotiation: Strategies and Behavioral Insights",
+      "F25",
+      "Additional Disciplines",
+      "DC",
+      "Social & Decision Sciences"
+    ],
+    [
+      "88235",
+      "Negotiation: Strategies and Behavioral Insights",
+      "F26",
+      "Additional Disciplines",
+      "DC",
+      "Social & Decision Sciences"
+    ],
+    [
+      "88255",
+      "Strategic Decision Making",
+      "S25",
+      "Social Sciences",
+      "DC",
+      "Social & Decision Sciences"
+    ],
+    [
+      "88255",
+      "Strategic Decision Making",
+      "S26",
+      "Social Sciences",
+      "DC",
+      "Social & Decision Sciences"
+    ],
+    [
+      "88261",
+      "Health Policy and Decision Making",
+      "F25",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "Social & Decision Sciences"
+    ],
+    [
+      "88261",
+      "Health Policy and Decision Making",
+      "F26",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "Social & Decision Sciences"
+    ],
+    [
+      "88275",
+      "Bubbles: Data Science for Human Minds",
+      "S25",
+      "Scientific Inquiry",
+      "DC",
+      "Social & Decision Sciences"
+    ],
+    [
+      "88285",
+      "Deconstructing and Dismantling Discrimination",
+      "S26",
+      "Perspectives on Justice and Injustice",
+      "DC",
+      "Social & Decision Sciences"
+    ],
+    [
+      "88300",
+      "Programming and Data Analysis for Social Scientists",
+      "S25",
+      "Computational Thinking",
+      "DC",
+      "Social & Decision Sciences"
+    ],
+    [
+      "88300",
+      "Programming and Data Analysis for Social Scientists",
+      "S26",
+      "Computational Thinking",
+      "DC",
+      "Social & Decision Sciences"
+    ],
+    [
+      "88312",
+      "Decision Models and Games",
+      "S26",
+      "Computational Thinking",
+      "DC",
+      "Social & Decision Sciences"
+    ],
+    [
+      "99361",
+      "IDeATe Portal",
+      "F25",
+      "Additional Disciplines",
+      "CMU",
+      "Carnegie Mellon University-Wide Stu.."
+    ],
+    [
+      "99361",
+      "IDeATe Portal",
+      "F26",
+      "Additional Disciplines",
+      "CMU",
+      "Carnegie Mellon University-Wide Stu.."
+    ],
+    [
+      "99361",
+      "IDeATe Portal",
+      "S25",
+      "Additional Disciplines",
+      "CMU",
+      "Carnegie Mellon University-Wide Stu.."
+    ],
+    [
+      "99361",
+      "IDeATe Portal",
+      "S26",
+      "Additional Disciplines",
+      "CMU",
+      "Carnegie Mellon University-Wide Stu.. GenEd Course List"
+    ],
+    [
+      "99361",
+      "IDeATe Portal",
+      "S25",
+      "Additional Disciplines",
+      "CMU",
+      "Carnegie Mellon University-Wide Stu.."
+    ],
+    [
+      "99361",
+      "IDeATe Portal",
+      "S26",
+      "Additional Disciplines",
+      "CMU",
+      "Carnegie Mellon University-Wide Stu.. GenEd Course List"
+    ]
+  ]
+}

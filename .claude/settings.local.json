@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -m 40 \"https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/courseDetails?COURSE=15112&SEMESTER=F26\" -o cd.html -w \"http=%{http_code} size=%{size_download}\\\\n\")",
+      "Bash(python3 -)",
+      "Bash(time curl -s -m 180 -X POST \"https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/search\" -d \"SEMESTER=F26&MINI=NO&GRAD_UNDER=All&PRG_LOCATION=All&DEPT=All\" -o soc_all.html -w \"http=%{http_code} size=%{size_download}\\\\n\")",
+      "Bash(python3 -c ' *)",
+      "Bash(PYTHONIOENCODING=utf-8 python3 build.py)",
+      "Bash(PYTHONIOENCODING=utf-8 python3 -)",
+      "Read(//c/Users/there/AppData/Local/Temp/claude/**)",
+      "Bash(curl -s -m 20 \"https://engineering.cmu.edu/robots.txt\")",
+      "Bash(curl -s -m 30 -L \"https://engineering.cmu.edu/education/undergraduate-studies/curriculum/general-education/index.html\" -o /tmp/cit.html)",
+      "Bash(curl -s -m 30 -L \"https://www.cmu.edu/dietrich/gened/fall-2021-and-beyond/course-options/index.html\" -o /tmp/diet.html)",
+      "Bash(curl -s -m 30 -L \"https://engineering.cmu.edu/education/undergraduate-studies/curriculum/general-education/index.html\" -o cit.html)",
+      "Bash(curl -s -m 30 -L \"https://www.cmu.edu/dietrich/gened/fall-2021-and-beyond/course-options/index.html\" -o diet.html)",
+      "Bash(rm -f cit.html diet.html)",
+      "Bash(curl -s -m 30 -L \"https://www.cs.cmu.edu/rs-datasources/data-source/scs-gen-ed-reqs-cat1\" -o ds1.json -w \"http=%{http_code} type=%{content_type} size=%{size_download}\\\\n\")",
+      "Bash(curl -s -m 40 \"https://engineering.cmu.edu/sitemap.xml\" -o eng_sm.xml -w \"http=%{http_code} size=%{size_download}\\\\n\")",
+      "Bash(PYTHONIOENCODING=utf-8 python3 -c ' *)",
+      "Bash(curl -s -m 40 \"https://public.tableau.com/profile/api/single_workbook/GeneralEducationPublicSearchTool\" -o wb.json -w \"http=%{http_code} size=%{size_download}\\\\n\")",
+      "Bash(PYTHONIOENCODING=utf-8 python3 tools/convert_dietrich_pdf.py \"C:\\\\Users\\\\there\\\\Downloads\\\\Dietrich GenEd Course List.pdf\")",
+      "Bash(awk '{printf \"%-32s %8.1f KB\\\\n\",$9,$5/1024}')",
+      "Bash(PYTHONIOENCODING=utf-8 python3 build_site.py)",
+      "Bash(curl -s -m 20 \"http://localhost:8137/schedule.js\")"
+    ]
+  }
+}

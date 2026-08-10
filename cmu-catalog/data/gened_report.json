@@ -1,0 +1,32 @@
+{
+  "categories": 34,
+  "schools": [
+    "CIT",
+    "Dietrich",
+    "MCS",
+    "SCS"
+  ],
+  "categories_with_courses": 33,
+  "categories_without_courses": 1,
+  "total_course_entries": 901,
+  "distinct_courses": 643,
+  "courses_not_in_catalog": 45,
+  "by_school": {
+    "CIT": {
+      "categories": 6,
+      "courses": 144
+    },
+    "Dietrich": {
+      "categories": 14,
+      "courses": 277
+    },
+    "MCS": {
+      "categories": 6,
+      "courses": 151
+    },
+    "SCS": {
+      "categories": 8,
+      "courses": 329
+    }
+  }
+}
