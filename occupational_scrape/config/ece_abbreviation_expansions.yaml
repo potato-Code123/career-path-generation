@@ -1,0 +1,49 @@
+# ECE-domain abbreviation expansions, applied at stage 2 of the resolution cascade.
+#
+# Keys are matched case-insensitively against whole tokens of the *raw* input,
+# before normalization. Values are full forms substituted back into the input; the
+# result is re-normalized and retried against the exact index. When several tokens
+# expand, the cross product of their expansions is tried, in a fixed order.
+#
+# These exist because O*NET's title vocabulary and an ECE student's vocabulary do
+# not overlap. A search of release 30.3 returns zero rows for `RTL`, `VLSI`, `ASIC`
+# and `FPGA` as standalone tokens, so `RTL designer` is unreachable without an
+# expansion. Multiple expansions per key are deliberate: the cascade tries each and
+# keeps the first that hits, so a key can cover several plausible readings.
+
+ML:    ["Machine Learning"]
+MLE:   ["Machine Learning Engineer"]
+DV:    ["Design Verification"]
+RTL:   ["Register Transfer Level", "Digital Design"]
+VLSI:  ["Very Large Scale Integration", "Integrated Circuit Design"]
+DSP:   ["Digital Signal Processing", "Signal Processing"]
+RF:    ["Radio Frequency"]
+SoC:   ["System on Chip", "Computer Systems Engineer"]
+PCB:   ["Printed Circuit Board"]
+FW:    ["Firmware"]
+SI:    ["Signal Integrity"]
+PI:    ["Power Integrity"]
+EE:    ["Electrical Engineering", "Electrical Engineer"]
+CE:    ["Computer Engineering", "Computer Engineer"]
+SWE:   ["Software Engineer"]
+HW:    ["Hardware"]
+IC:    ["Integrated Circuit"]
+ASIC:  ["Application Specific Integrated Circuit", "Digital Design"]
+FPGA:  ["Field Programmable Gate Array"]
+PLC:   ["Programmable Logic Controller"]
+HDL:   ["Hardware Description Language", "Digital Design"]
+EDA:   ["Electronic Design Automation"]
+CV:    ["Computer Vision"]
+NLP:   ["Natural Language Processing"]
+HPC:   ["High Performance Computing"]
+
+# Beyond the required minimum: high-frequency in ECE recruiting vocabulary and
+# absent or near-absent from O*NET surface titles.
+AI:    ["Artificial Intelligence"]
+DFT:   ["Design for Test", "Design for Testability"]
+PD:    ["Physical Design"]
+STA:   ["Static Timing Analysis"]
+QA:    ["Quality Assurance"]
+IoT:   ["Internet of Things"]
+GPU:   ["Graphics Processing Unit"]
+MEMS:  ["Microelectromechanical Systems", "Microsystems"]

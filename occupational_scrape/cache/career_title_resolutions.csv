@@ -1,0 +1,10 @@
+input_raw,normalized,codes,stage,resolved_utc,model_id,candidates_considered
+design verification engineer,design verification engineer,17-2061.00|17-2071.00,exact,2026-08-08T07:16:39Z,,17-2061.00|17-2071.00
+ML engineer,ml engineer,15-1221.00|15-1299.08|15-2051.00,expanded,2026-08-08T07:16:39Z,,15-1221.00|15-1299.08|15-2051.00
+MLE,mle,15-1221.00|15-1299.08|15-2051.00,expanded,2026-08-08T07:16:39Z,,15-1221.00|15-1299.08|15-2051.00
+RTL designer,rtl designer,15-1255.00|27-1014.00|27-1029.00|27-1021.00|17-2061.00|15-1255.01|17-3011.00|17-3012.00,fuzzy,2026-08-08T07:16:39Z,,15-1255.00|27-1014.00|27-1029.00|27-1021.00|17-2061.00|15-1255.01|17-3011.00|17-3012.00
+FPGA engineer,fpga engineer,17-2061.00|17-2072.00,exact,2026-08-08T07:16:39Z,,17-2061.00|17-2072.00
+embedded engineer,embedded engineer,15-1252.00,exact,2026-08-08T07:16:39Z,,15-1252.00
+chip designer,chip designer,25-1032.00,fuzzy,2026-08-08T07:16:39Z,,25-1032.00
+power systems engineer,power system engineer,17-2071.00|17-2199.11,exact,2026-08-08T07:16:40Z,,17-2071.00|17-2199.11
+asdfqwer,asdfqwer,,unmapped,2026-08-08T07:16:40Z,,
