@@ -1,0 +1,46 @@
+# Stage 3 (fuzzy) settings, read by match_title_fuzzy.py at import time.
+#
+# The threshold is NOT hardcoded in the module on purpose: it is an empirical
+# quantity, it will be re-tuned when the O*NET release is bumped, and the value in
+# force has to be inspectable by whoever reads a resolution after the fact. The
+# sweep that produced it lives in dev/tune_fuzzy_match_threshold.py and writes
+# dev/reports/fuzzy_threshold_sweep.csv.
+#
+# See docs/phase2_notes.md for the evidence behind the chosen value.
+
+# Cosine similarity floor for accepting a fuzzy match outright (stage 3 "hit").
+#
+# Chosen from dev/reports/fuzzy_threshold_sweep.csv. 0.600 is the knee: it is the
+# highest threshold at which recall on the should_hit probes is still 1.000, and
+# the lowest at which the false-match rate on nonsense probes reaches 0.000
+# ("flurbish wrangler" tops out at 0.589). Every step above it trades recall for
+# nothing -- recall falls to 0.933 at 0.625 and 0.800 at 0.750 while the
+# false-match rate is already zero.
+threshold: 0.600
+
+# Relaxed floor used only to assemble the candidate set handed to stage 4.
+#
+# Stage 3 hits when something clears `threshold`; the LLM is asked only when
+# nothing does. For the LLM to be useful in that case it must still be shown the
+# near-misses, so candidates are gathered at this lower floor. It is set below the
+# best score for "prompt engineer" (0.537) and "quant" (0.418) so those reach
+# Claude with something to judge, and above the best score for "asdfqwer" (0.239)
+# so pure noise is returned as `unmapped` without spending a call.
+llm_candidate_floor: 0.350
+
+# Candidates handed to the LLM stage. Also the cap on codes returned by a
+# fuzzy-only resolution.
+top_k: 8
+
+# Character n-gram range for the TF-IDF vectorizer.
+ngram_range: [3, 5]
+
+# scikit-learn analyzer. "char" is literal character n-grams and crosses word
+# boundaries, which is what makes multi-word job titles match on shared phrases
+# rather than only on shared words.
+analyzer: "char"
+
+# Lowercasing is redundant -- every key in the index is already casefolded by
+# normalize_job_title -- but is left on so the vectorizer behaves identically if
+# it is ever fitted on un-normalized text by mistake.
+lowercase: true

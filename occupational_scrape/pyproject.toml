@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "occupational-scrape"
+version = "0.2.0"
+description = "Career taxonomy ingestion and deterministic free-text career resolution (Phase 2)"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas==2.2.3",
+    "pyarrow==18.1.0",
+    "scikit-learn==1.6.0",
+    "PyYAML==6.0.2",
+    "requests==2.32.3",
+    "openpyxl==3.1.5",
+    "pytest==8.3.4",
+]
+
+[project.optional-dependencies]
+# Stage 4 of the resolution cascade only. Stages 1-3 and every build script run
+# without this installed; `select_candidate_via_llm` raises LlmUnavailable when
+# the SDK or credentials are absent, and the cascade degrades to `unmapped`.
+llm = ["anthropic==0.121.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

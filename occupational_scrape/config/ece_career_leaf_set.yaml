@@ -1,0 +1,81 @@
+# Curated career namespace for one ECE department.
+#
+# This is the set of codes a resolution is allowed to land on. It is deliberately
+# small: ~1,016 O*NET occupations is the wrong namespace for a single department,
+# and every extra leaf splits the transcript evidence the statistics layer needs
+# to compute P(course | career) over.
+#
+# Candidates were filtered to SOC minor groups 17-2000 (Engineers), 17-3000
+# (Engineering Technologists/Technicians), 15-1200 (Computer Occupations) and
+# 15-2000 (Mathematical Science Occupations), then hand-selected.
+#
+# Codes whose O*NET `Data-level` is blank are excluded on principle. Those are the
+# residual "All Other" buckets -- 17-2199.00 Engineers/All Other, 15-1299.00
+# Computer Occupations/All Other, 15-2099.00, 17-3019.00, 17-3029.00. They are
+# valid *backoff* targets (apply_career_backoff walks through them) but must never
+# be a resolution target: "Engineers, All Other" is not a career a student can aim
+# at, and conditioning course statistics on it would pool unrelated populations.
+#
+# `justification` is intentionally blank on entries flagged for human review.
+# This file is hand-editable and is cited in the write-up -- keep it readable.
+
+- code: "17-2061.00"
+  title: "Computer Hardware Engineers"
+  justification: "Core ECE destination; covers ASIC/FPGA/digital design and design verification roles."
+
+- code: "17-2071.00"
+  title: "Electrical Engineers"
+  justification: "Core ECE destination; power systems, analog, and the general EE track."
+
+- code: "17-2072.00"
+  title: "Electronics Engineers, Except Computer"
+  justification: "Core ECE destination; RF, embedded electronics, and board-level design."
+
+- code: "15-1252.00"
+  title: "Software Developers"
+  justification: "Largest single destination for CE graduates; absorbs embedded and systems software roles."
+
+- code: "15-1299.08"
+  title: "Computer Systems Engineers/Architects"
+  justification: "Systems-level CE destination; where hardware/software co-design roles land in O*NET."
+
+- code: "15-1221.00"
+  title: "Computer and Information Research Scientists"
+  justification: "Research and graduate-school track; the ML-research destination in O*NET."
+
+- code: "15-2051.00"
+  title: "Data Scientists"
+  justification: "Applied ML and signal/data analysis destination drawing on the DSP and probability sequence."
+
+- code: "15-1241.00"
+  title: "Computer Network Architects"
+  justification: "Networking track destination; conditions on the communications and networks sequence."
+
+- code: "15-1212.00"
+  title: "Information Security Analysts"
+  justification: "Security track destination; distinct course prerequisites from the systems track."
+
+- code: "17-2199.08"
+  title: "Robotics Engineers"
+  justification: "Controls and mechatronics destination; conditions on the controls and embedded sequence."
+
+- code: "17-3023.00"
+  title: "Electrical and Electronic Engineering Technologists and Technicians"
+  justification: "Non-BS-engineering destination; kept so the ladder has a technologist target rather than backing off to a minor group."
+
+# ---------------------------------------------------------------------------
+# Flagged for human review -- justification deliberately blank.
+# See docs/phase2_notes.md for why each is uncertain.
+# ---------------------------------------------------------------------------
+
+- code: "17-2199.07"
+  title: "Photonics Engineers"
+  justification: ""
+
+- code: "17-2199.06"
+  title: "Microsystems Engineers"
+  justification: ""
+
+- code: "15-1211.00"
+  title: "Computer Systems Analysts"
+  justification: ""
